@@ -1,0 +1,148 @@
+{
+    "intents": [
+        {
+            "tag": "pengaduan-jalan-rusak",
+            "patterns": [
+              "Ada jalan rusak depan rumah saya",
+              "Jalan di dekat sekolah kami berlubang",
+              "Aspal di jalan ini sudah mengelupas",
+              "Jalan menuju pasar sangat tidak rata",
+              "Ada kerusakan di jalan raya yang sering dilalui",
+              "Jalan utama ke kantor saya retak",
+              "Lubang besar di tengah jalan mengganggu lalu lintas",
+              "Jalan penghubung antar desa rusak parah",
+              "Jalan layang baru saja retak, perlu diperbaiki",
+              "Jalan menuju rumah sakit penuh dengan lubang",
+              "Jalan provinsi ini sudah lama tidak diperbaiki",
+              "Jalan menuju stasiun kereta rusak berat",
+              "Jalan aspal di kompleks saya sudah pecah",
+              "Jalan beton di depan toko saya mengalami keretakan",
+              "Jalan lingkungan kami rusak setelah hujan deras",
+              "Jalan akses ke perkebunan rusak tidak bisa dilewati",
+              "Jalan menuju tempat wisata ini sangat buruk kondisinya",
+              "Jalan di depan kampus mengalami penurunan kualitas",
+              "Jalan ini berbahaya karena banyak lubang",
+              "Jalan di area perumahan kami sangat memprihatinkan"
+            ],
+            "responses": [
+              "Mohon maaf atas pengalaman buruk jalan rusak yang anda alami. Anda bisa membuat laporan pengaduan pada bagian pengaduan dengan memilih kategori infrastruktur, dan memberikan deskripsi aduan berupa alamat, foto, dan detail lebih mengenai kondisi jalan yang rusak. Terima Kasih"
+            ]
+          },
+          {
+            "tag": "pengaduan-kebakaran",
+            "patterns": [
+              "Ada kebakaran di gedung sebelah",
+              "Rumah tetangga saya terbakar, tolong segera!",
+              "Kebakaran besar di pabrik dekat sini",
+              "Api mulai menjalar ke rumah-rumah warga",
+              "Kebun di belakang rumah saya terbakar",
+              "Ada asap tebal, sepertinya ada kebakaran",
+              "Kebakaran di pasar, banyak pedagang panik",
+              "Api dari kebakaran hutan semakin mendekat",
+              "Kebakaran di area perkantoran, butuh bantuan",
+              "Laporkan kebakaran di kompleks perumahan ini",
+              "Toko di jalan utama terbakar, butuh bantuan cepat",
+              "Kebakaran di sekolah, semua murid sudah dievakuasi",
+              "Gudang penyimpanan barang terbakar, banyak asap hitam",
+              "Kebakaran di lahan kosong, api semakin membesar",
+              "Rumah di pinggir jalan mengalami kebakaran hebat",
+              "Kebakaran di kawasan industri, banyak pabrik terancam",
+              "Kebakaran di apartemen, banyak orang terjebak",
+              "Kebakaran di restoran, api berasal dari dapur",
+              "Kebakaran di stasiun bensin, situasi sangat darurat",
+              "Kebakaran di taman kota, banyak pohon yang terbakar"
+            ],
+            "responses": [
+              "Mohon maaf atas kejadian kebakaran yang Anda laporkan. Untuk penanganan lebih lanjut, silakan hubungi nomor darurat kebakaran atau lakukan laporan pengaduan dengan menyertakan lokasi, waktu kejadian, dan foto jika memungkinkan. Kami akan segera mengirim bantuan. Terima kasih atas laporan Anda."
+            ]
+          },
+          {
+            "tag": "kemacetan-lalu-lintas",
+            "patterns": [
+              "Jalan utama di kota kami selalu macet setiap pagi",
+              "Ada kemacetan parah di persimpangan dekat kantor saya",
+              "Lalu lintas sangat padat di sekitar sekolah setiap sore",
+              "Bagaimana cara melaporkan kemacetan lalu lintas yang sering terjadi?",
+              "Saya ingin mengadukan kemacetan yang selalu terjadi di jalan tol",
+              "Kapan pemerintah akan mengatasi masalah kemacetan di jalan utama?",
+              "Kemacetan di daerah ini semakin parah setiap harinya",
+              "Lampu lalu lintas di persimpangan ini sering tidak berfungsi, menyebabkan kemacetan",
+              "Ada pekerjaan jalan yang menyebabkan kemacetan panjang setiap hari",
+              "Terlalu banyak kendaraan parkir sembarangan di sepanjang jalan ini, menyebabkan kemacetan",
+              "Apakah ada rencana untuk mengurangi kemacetan di pusat kota?",
+              "Kemacetan di dekat stasiun kereta api sangat mengganggu aktivitas harian",
+              "Saya mengalami kemacetan yang parah setiap kali melewati jalan ini",
+              "Jalan alternatif yang disarankan juga mengalami kemacetan",
+              "Pengaturan lalu lintas yang buruk menyebabkan kemacetan panjang"
+            ],
+            "response": [
+              "Terima kasih telah menghubungi kami. Kami memahami bahwa kemacetan lalu lintas dapat sangat mengganggu aktivitas sehari-hari. Untuk membantu kami menangani masalah ini, mohon berikan informasi lebih lanjut seperti lokasi spesifik, waktu terjadinya kemacetan, dan faktor-faktor yang Anda anggap menyebabkan kemacetan. Informasi ini sangat penting untuk proses investigasi dan perencanaan solusi kami."
+            ]
+          },
+          {
+            "tag": "parkir-liar",
+            "patterns": [
+              "Ada banyak kendaraan yang parkir sembarangan di jalan ini",
+              "Kendaraan parkir di trotoar menghalangi pejalan kaki",
+              "Parkir liar di depan toko saya mengganggu pelanggan",
+              "Bagaimana cara melaporkan parkir liar di lingkungan saya?",
+              "Mobil-mobil parkir sembarangan di area ini setiap malam",
+              "Parkir liar di sekitar sekolah mengganggu lalu lintas",
+              "Ada kendaraan yang parkir di tempat yang tidak seharusnya setiap hari",
+              "Saya ingin melaporkan parkir liar di depan rumah saya",
+              "Banyak kendaraan yang parkir di jalan sempit ini, menyebabkan kemacetan",
+              "Apakah ada tindakan terhadap parkir liar di kawasan perumahan kami?",
+              "Kendaraan parkir liar di area ini menghalangi akses keluar-masuk",
+              "Mobil parkir sembarangan di jalur sepeda",
+              "Parkir liar mengganggu operasi bisnis di daerah kami",
+              "Saya melihat banyak kendaraan parkir di zona larangan parkir",
+              "Parkir liar di depan gedung ini sangat mengganggu"
+            ],
+            "response": [
+              "Terima kasih telah menghubungi kami. Kami mengerti bahwa parkir liar dapat menyebabkan banyak masalah, termasuk kemacetan dan gangguan bagi pejalan kaki serta pengendara. Untuk membantu kami menindaklanjuti laporan Anda, mohon berikan informasi lebih lanjut seperti lokasi spesifik, waktu kejadian, dan jenis kendaraan yang terlibat. Informasi ini sangat penting untuk proses investigasi dan penegakan hukum kami."
+            ]
+          },
+          {
+            "tag": "Saluran-Air-Mampet",
+            "patterns": [
+              "Saluran air di dekat rumah saya tersumbat dan tidak lancar",
+              "Ada saluran air yang mampet di jalan utama, menyebabkan genangan air",
+              "Bagaimana cara melaporkan saluran air mampet di lingkungan saya?",
+              "Saya ingin mengadukan saluran air yang tersumbat di sepanjang trotoar ini",
+              "Genangan air di daerah ini disebabkan oleh saluran air yang mampet",
+              "Saluran air di dekat sekolah kami sering mampet saat hujan",
+              "Ada bau tidak sedap dari saluran air yang tersumbat di belakang rumah saya",
+              "Saya melihat sampah menyumbat saluran air di area perumahan ini",
+              "Apakah ada tindakan untuk membersihkan saluran air yang mampet di lingkungan kami?",
+              "Saya khawatir saluran air mampet ini bisa menyebabkan banjir",
+              "Saluran air di taman kota kami perlu diperbaiki karena sering mampet",
+              "Saya ingin melaporkan saluran air yang tersumbat di kantor pos ini",
+              "Saluran air di area parkir pusat perbelanjaan sering kali tersumbat"
+            ],
+            "response": [
+              "Terima kasih telah menghubungi kami. Kami memahami bahwa saluran air yang mampet dapat menyebabkan berbagai masalah seperti genangan air dan bau tidak sedap. Untuk membantu kami menangani masalah ini, mohon berikan informasi lebih lanjut seperti lokasi spesifik, jenis masalah yang terjadi, dan waktu kejadian jika memungkinkan. Informasi ini sangat penting untuk proses pembersihan dan perbaikan saluran air."
+            ]
+          },
+          {
+            "tag": "Penerangan-Jalan-Yang-Kurang",
+            "patterns": [
+              "Penerangan jalan di dekat rumah saya sangat minim pada malam hari",
+              "Bagaimana cara melaporkan masalah penerangan jalan yang kurang?",
+              "Lampu penerangan di persimpangan ini sering mati",
+              "Jalan menuju sekolah kami gelap pada malam hari",
+              "Saya ingin melaporkan lampu penerangan jalan yang tidak berfungsi",
+              "Penerangan jalan di daerah ini kurang memadai saat hujan deras",
+              "Lampu penerangan di taman kota sering kali mati",
+              "Ada bagian jalan tol yang gelap dan berpotensi berbahaya",
+              "Apakah ada rencana untuk memperbaiki penerangan jalan di kota ini?",
+              "Lampu penerangan di kawasan perumahan kami perlu diperbaiki",
+              "Penerangan di sekitar halte bus sangat minim, membuat pengguna merasa tidak aman",
+              "Saya khawatir dengan keamanan jalan karena kurangnya penerangan di jalur sepeda",
+              "Jalan setapak di taman umum kami gelap pada malam hari"
+            ],
+            "response": [
+              "Terima kasih telah menghubungi kami. Kami memahami bahwa penerangan jalan yang kurang dapat menciptakan kondisi yang tidak aman bagi masyarakat. Untuk membantu kami menindaklanjuti laporan Anda, mohon berikan informasi lebih lanjut seperti lokasi spesifik masalah, jenis lampu penerangan yang terlibat, dan waktu kejadian jika memungkinkan. Informasi ini akan membantu kami dalam perencanaan dan perbaikan infrastruktur penerangan jalan."
+            ]
+        }    
+    ]
+}

@@ -1,0 +1,164 @@
+{
+       "tag": "pengaduan-fasilitas-kesehatan",
+       "patterns": [
+	"Alat-alat kesehatan di ruang pemeriksaan banyak yang tidak berfungsi."
+	"Mesin EKG sering rusak dan menghambat proses diagnosis."
+	"Peralatan di laboratorium tidak lengkap sehingga pemeriksaan tertunda."
+	"MRI scanner di rumah sakit ini sudah lama rusak dan belum diperbaiki."
+	"Banyak alat suntik yang tidak steril dan meresahkan pasien."
+	"Monitor di ruang ICU sering mati sendiri saat digunakan."
+	"Alat untuk tes darah sering kali tidak akurat."
+	"Ventilator di ruang gawat darurat tidak berfungsi dengan baik."
+	"Alat USG di ruang periksa sudah ketinggalan zaman dan hasilnya tidak jelas."
+	"Banyak alat medis yang tidak terawat dengan baik dan terlihat kotor."
+	"Fasilitas kebersihan di kamar rawat inap kurang memadai."
+	"AC di ruang perawatan rusak dan tidak diperbaiki."
+	"Peralatan medis di ruang gawat darurat tidak lengkap."
+	"Toilet di area umum sangat kotor dan tidak terjaga."
+	"Proses administrasi pasien terlalu rumit dan memakan waktu."
+	"Tidak ada petunjuk yang jelas untuk menuju ruang pemeriksaan."
+	"Kursi roda yang disediakan untuk pasien tidak cukup banyak dan sering kali dalam kondisi rusak."
+	"Kamar mandi di bangsal pasien tidak terjaga kebersihannya dan sering kali tidak ada air."
+	"Banyak ranjang pasien yang berdecit dan tidak bisa diatur posisinya dengan baik."
+	"Ruang tunggu di poliklinik anak terlalu sempit dan tidak ada ventilasi yang memadai."
+	"AC di ruang perawatan anak tidak berfungsi dengan baik, membuat anak-anak merasa tidak nyaman."
+	"Tangga darurat di rumah sakit ini tertutup barang-barang, menghalangi jalur evakuasi."
+	"Lift di rumah sakit sering kali rusak dan tidak segera diperbaiki, menyulitkan pasien dan keluarga yang tidak bisa menggunakan tangga."
+	"Kabel listrik di beberapa ruangan terlihat menjuntai dan berbahaya."
+	"Tidak ada tempat istirahat yang memadai bagi keluarga pasien yang harus menunggu lama."
+	"Ruang perawatan gigi tidak memiliki alat sterilisasi yang memadai, menimbulkan kekhawatiran tentang kebersihan."
+	"Beberapa alat infus sering macet, mengganggu aliran obat ke pasien."
+	"Kondisi dinding di beberapa kamar rawat inap terlihat berjamur dan lembab."
+	"Tidak ada cukup ventilasi di ruang radiologi, membuat udara di dalam terasa pengap dan tidak sehat."
+	"Terdapat retakan besar di lantai ruang tunggu yang bisa membahayakan pasien dan pengunjung."
+       ],
+       "responses": [
+         "Mohon maaf atas pengalaman buruk dari fasilitas kesehatan yang anda alami. Anda bisa membuat laporan pengaduan dan memberikan deskripsi aduan berupa alamat faskes, foto, dan detail lebih mengenai fasilitas kesehatan. Terima Kasih"
+       ]
+     },
+
+
+
+{
+       "tag": "pengaduan-pelayanan-kesehatan",
+       "patterns": [
+	"Dokter sering datang terlambat sehingga pasien harus menunggu terlalu lama."
+	"Perawat kurang ramah dan terkesan tidak peduli pada keluhan pasien."
+	"Staf pendaftaran lambat dalam memproses administrasi pasien baru."
+	"Dokter tidak memberikan penjelasan yang cukup jelas tentang kondisi dan perawatan yang diperlukan."
+	"Perawat sering mengabaikan panggilan pasien yang membutuhkan bantuan."
+	"Staf rumah sakit tidak responsif terhadap keluhan dan pertanyaan dari keluarga pasien."
+	"Dokter jarang berkunjung untuk memeriksa kondisi pasien di bangsal."
+	"Pelayanan di apotek rumah sakit sangat lambat dan tidak teratur."
+	"Perawat kurang cekatan dalam mengganti infus dan merespon kebutuhan pasien."
+	"Staf kebersihan tidak membersihkan ruangan dengan baik, membuat lingkungan tidak higienis."
+	"Petugas keamanan kurang tegas dalam menjaga ketertiban di area rumah sakit."
+	"Staf laboratorium tidak ramah dan kurang informatif mengenai prosedur tes."
+	"Pelayanan di unit gawat darurat sangat lambat, bahkan untuk kasus darurat."
+	"Perawat tidak memonitor kondisi pasien secara rutin, terutama pada malam hari."
+	"Staf rumah sakit kurang profesional dalam menangani keluhan pasien."
+	"Pendaftaran online sering bermasalah, menyebabkan pasien harus mengantri lama di lokasi."
+	"Dokter tidak memperhatikan riwayat medis pasien dengan baik sebelum memberikan diagnosis."
+	"Komunikasi antar staf medis kurang baik, menyebabkan kebingungan dalam perawatan pasien."
+	"Staf administrasi sering salah memasukkan data pasien, menimbulkan masalah saat perawatan."
+	"Perawat tidak memberi tahu pasien atau keluarga tentang perubahan jadwal pemeriksaan."
+
+       ],
+       "responses": [
+         "Mohon maaf atas pengalaman buruk dari pelayanan kesehatan yang anda alami. Anda bisa membuat laporan pengaduan dan memberikan deskripsi aduan berupa alamat faskes, foto, dan detail lebih mengenai pelayanan kesehatan yang Anda alami. Terima Kasih"
+       ]
+     },
+
+
+
+{
+       "tag": "pengaduan-pelayanan-bpjs-kesehatan",
+       "patterns": [
+	"Proses klaim BPJS sangat lambat dan sering kali memakan waktu berbulan-bulan."
+	"Banyak dokter yang enggan menerima pasien BPJS dan mengarahkan ke klinik lain."
+	"Rumah sakit sering kehabisan obat untuk pasien BPJS, membuat pasien harus membeli sendiri."
+	"Pendaftaran BPJS online sering error dan menyebabkan pasien harus datang langsung."
+	"Antrian BPJS di rumah sakit sangat panjang dan memakan waktu berjam-jam."
+	"Pelayanan untuk pasien BPJS kurang ramah dibandingkan pasien umum."	
+	"Tidak ada cukup dokter spesialis yang melayani pasien BPJS di rumah sakit."
+	"Sering terjadi kesalahan dalam data kepesertaan BPJS yang menghambat pelayanan."
+	"Banyak layanan medis tidak ditanggung oleh BPJS, sehingga pasien harus membayar sendiri."
+	"Rumah sakit sering kali meminta pasien BPJS untuk datang di lain waktu karena keterbatasan kuota."
+	"Proses rujukan dari puskesmas ke rumah sakit dengan BPJS sangat berbelit-belit."
+	"Fasilitas kesehatan untuk pasien BPJS kurang memadai dibandingkan pasien non-BPJS."
+	"Sering kali pasien BPJS tidak mendapatkan kamar rawat inap yang layak dan harus menunggu lama."
+	"Komunikasi antara BPJS dan rumah sakit sering kali tidak sinkron, menyebabkan kebingungan pasien."
+	"Banyak klinik yang tidak menerima peserta BPJS karena alasan administrasi."		
+	"Prosedur untuk mendapatkan obat dengan BPJS di apotek rumah sakit sangat rumit."
+	"Petugas BPJS di rumah sakit kurang informatif dan tidak membantu dengan baik."	
+	"Pasien BPJS sering diperlakukan berbeda dan harus menunggu lebih lama untuk pelayanan medis."
+	"Fasilitas penunjang seperti tes laboratorium sering kali tidak tersedia untuk pasien BPJS."
+	"Dokter sering meminta pasien BPJS untuk melakukan pemeriksaan di luar rumah sakit dengan biaya sendiri."
+
+       ],
+       "responses": [
+         "Mohon maaf atas pengalaman buruk dari pelayanan BPJS kesehatan yang anda alami. Anda bisa membuat laporan pengaduan dan memberikan deskripsi aduan berupa alamat faskes, foto, dan detail lebih mengenai pelayanan BPJS Kesehatan yang Anda alami. Terima Kasih"
+       ]
+     },
+
+
+
+{
+       "tag": "pengaduan-fasilitas-pertanian",
+       "patterns": [
+	"Alat penyiram otomatis di sawah kami sering rusak, menyebabkan kesulitan dalam pengelolaan irigasi."
+	"Traktor yang disediakan oleh pemerintah daerah sering mogok dan sulit untuk diperbaiki."
+	"Pompa air di sumur kami sudah lama rusak dan belum ada tindakan perbaikan dari pihak terkait."
+	"Sumber air irigasi kami tercemar oleh limbah industri, mengganggu produktivitas pertanian kami."
+	"Infrastruktur jalan menuju kebun kami rusak parah, menyulitkan akses transportasi untuk membawa hasil panen."
+	"Fasilitas penyimpanan hasil panen di desa kami sangat terbatas, sehingga sebagian besar hasil panen menjadi terbuang."
+	"Mesin penggiling padi di koperasi kami sering mati mendadak, memperlambat proses penggilingan."
+	"Alat pemupuk tanah yang kami gunakan sudah tua dan kurang efisien dalam mendukung pertumbuhan tanaman."
+	"Pestisida yang diberikan oleh pemerintah sering kali tidak cukup efektif untuk mengendalikan serangan hama."
+	"Sistem irigasi tetes di kebun kami sering bocor dan menyebabkan pemborosan air."
+	"Kualitas benih yang diberikan oleh koperasi pertanian kurang baik, mengurangi hasil panen kami."
+	"Fasilitas pengeringan gabah di desa kami sering mengalami kerusakan, memperlambat proses pengolahan."
+	"Tidak adanya jaringan listrik di lahan pertanian kami menghambat penggunaan mesin-mesin modern."
+	"Jumlah pupuk subsidi yang diberikan pemerintah kepada petani sering tidak mencukupi kebutuhan."
+	"Fasilitas penyimpanan dan distribusi bibit tanaman di daerah kami sangat minim."
+	"Akses pasar bagi petani di daerah kami terbatas, menyebabkan kesulitan dalam menjual hasil panen."
+	"Pusat penelitian pertanian di daerah kami kurang memberikan pendampingan yang memadai kepada petani lokal."
+	"Ketersediaan alat pertanian modern seperti traktor atau mesin tanam di daerah kami sangat terbatas."
+	"Pusat pelatihan pertanian di desa kami kurang aktif dalam memberikan pelatihan kepada petani lokal."
+	"Ketersediaan tenaga kerja yang terampil di sektor pertanian di daerah kami sangat rendah."
+       ],
+       "responses": [
+         "Mohon maaf atas pengalaman buruk dari segi fasilitas pertanian yang anda alami. Anda bisa membuat laporan pengaduan dan memberikan deskripsi aduan berupa alamat daerah tani, foto, dan detail lebih mengenai kondisi fasilitas pertanian dan masalah fasilitas yang Anda alami. Terima Kasih"
+       ]
+     },
+
+
+{
+       "tag": "pengaduan-fasilitas-pertanian",
+       "patterns": [
+	"Harga jual gabah yang rendah membuat petani sulit untuk mencukupi kebutuhan hidup sehari-hari."
+	"Tingginya harga pupuk dan pestisida mengurangi margin keuntungan petani."
+	"Keterlambatan pembayaran subsidi pertanian menyulitkan petani untuk mengelola keuangan dengan baik."
+	"Persaingan harga yang ketat dari impor produk pertanian membuat petani lokal kehilangan daya saing."
+	"Biaya transportasi hasil panen yang tinggi mengurangi profitabilitas petani."
+	"Kurangnya akses petani ke lembaga keuangan untuk mendapatkan modal usaha."
+	"Perubahan harga komoditas pertanian yang fluktuatif membuat petani sulit merencanakan keuangan."
+	"Batasan perdagangan dan regulasi yang kompleks menghambat akses pasar bagi petani."
+	"Kurangnya infrastruktur pasar yang memadai menghambat petani dalam menjual hasil panen secara langsung."
+	"Birokrasi yang rumit dalam pengajuan subsidi atau bantuan kepada petani memperlambat proses pengembangan usaha."
+	"Tingginya beban pajak dan biaya administrasi lainnya membuat keuntungan bersih petani menurun."
+	"Kurangnya insentif dari pemerintah untuk diversifikasi produk pertanian menghambat inovasi dan peningkatan pendapatan petani."
+	"Ketergantungan pada monopoli distributor membuat petani rentan terhadap penentuan harga yang tidak menguntungkan."
+	"Persaingan harga yang tidak seimbang antara hasil impor dan produksi lokal membuat petani kehilangan motivasi untuk bertani."
+	"Keterbatasan akses petani terhadap teknologi modern dan pelatihan keuangan menghambat peningkatan produktivitas dan efisiensi."
+	"Kurangnya jaminan harga dan pasar yang stabil membuat petani enggan untuk meningkatkan skala produksi."
+	"Siklus hutang yang tidak terputus dengan tengkulak atau pemasok input pertanian membuat petani terjebak dalam lingkaran kemiskinan."
+	"Pasar yang dikuasai oleh kartel atau monopoli mengakibatkan harga jual hasil pertanian tidak mencerminkan nilai sebenarnya."
+	"Perubahan iklim dan cuaca ekstrem memperburuk risiko finansial petani dan meningkatkan biaya produksi."
+	"Tingginya biaya birokrasi dan pungutan liar di jalur distribusi menyebabkan harga jual produk pertanian naik secara signifikan."
+       ],
+       "responses": [
+         "Mohon maaf atas pengalaman buruk dari segi penurunan ekonomi tani yang anda alami. Anda bisa membuat laporan pengaduan dan memberikan deskripsi aduan berupa alamat, foto, dan detail lebih mengenai kondisi ekonomi pertanian daerah Anda dan masalah yang Anda alami. Terima Kasih"
+       ]
+     },
+

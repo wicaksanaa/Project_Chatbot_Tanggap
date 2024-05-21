@@ -1,0 +1,178 @@
+{
+    "intents": [
+        {
+            "tag": "Nepotisme",
+            "patterns": [
+              "Saya menyaksikan praktik nepotisme yang dilakukan oleh seseorang",
+              "Ada karyawan yang mendapat promosi karena hubungan keluarga",
+              "Manajer kami mempekerjakan anggota keluarganya yang tidak kompeten",
+              "Saya pikir ada favoritisme di departemen kami",
+              "Kolaborator saya mendapat posisi itu hanya karena dia saudara si bos",
+              "Saya curiga ada nepotisme dalam proses perekrutan",
+              "Ada karyawan yang mendapatkan kenaikan gaji karena hubungan keluarga dengan manajemen",
+              "Saya melihat seorang pegawai mendapat perlakuan istimewa karena dia keluarga manajer",
+              "Anggota keluarga atasan kami selalu mendapatkan proyek terbaik",
+              "Saya mendengar bahwa posisi strategis diberikan kepada saudara dari pejabat tinggi",
+              "Saya merasa tidak adil karena promosi diberikan berdasarkan hubungan keluarga",
+              "Ada favoritisme yang mencolok di tim kami karena hubungan pribadi",
+              "Seorang rekan kerja diangkat menjadi supervisor karena dia menantu dari direktur",
+              "Saya melihat adanya penyalahgunaan wewenang untuk menguntungkan keluarga sendiri",
+              "Saya tahu ada karyawan yang dipekerjakan hanya karena dia kerabat manajer"
+            ],
+            "response": [
+              "Terima kasih telah menghubungi kami. Untuk membantu kami dalam menyelidiki kasus ini, bisakah Anda memberikan rincian lebih lanjut? Informasi seperti waktu dan tempat kejadian, nama dan posisi orang yang terlibat, serta bagaimana Anda mengetahui tentang praktik tersebut akan sangat membantu."
+            ]
+          },
+        {
+            "tag": "Korupsi-dalam-Sistem-Peradilan",
+            "patterns": [
+              "Saya percaya ada korupsi di pengadilan",
+              "Hakim tampaknya menerima suap untuk memenangkan kasus",
+              "Ada bukti manipulasi kasus di pengadilan",
+              "Saya ingin melaporkan korupsi yang saya lihat di ruang sidang",
+              "Bagaimana cara melaporkan hakim yang korup?",
+              "Saya melihat pengacara memberi hadiah mahal kepada hakim",
+              "Ada jaksa yang meminta uang untuk menutup kasus",
+              "Saya mendengar ada suap untuk mempengaruhi putusan pengadilan",
+              "Ada bukti bahwa staf pengadilan memanipulasi dokumen untuk keuntungan pribadi",
+              "Saya mencurigai adanya pembayaran ilegal kepada petugas pengadilan",
+              "Seorang saksi memberi tahu saya tentang hakim yang menerima suap",
+              "Saya mengetahui adanya pejabat pengadilan yang bekerja sama dengan kriminal",
+              "Ada laporan bahwa kasus tertentu dipercepat atau diperlambat dengan suap",
+              "Saya melihat adanya penyalahgunaan wewenang oleh petugas peradilan",
+              "Saya menduga ada kolusi antara hakim dan pengacara dalam penanganan kasus",
+              "Saya melihat hakim menerima uang dari terdakwa",
+              "Ada pengacara yang sering mendapat perlakuan istimewa dari hakim",
+              "Saya mencurigai adanya permainan uang di balik keputusan pengadilan",
+              "Ada laporan tentang pejabat pengadilan yang hidup mewah tanpa alasan jelas",
+              "Saya mendengar jaksa menekan saksi untuk mengubah kesaksian mereka"
+            ],
+            "response": [
+              "Terima kasih telah menghubungi kami. Untuk melaporkan dugaan korupsi dalam sistem peradilan, mohon sertakan informasi detail seperti nama, tanggal, lokasi, dan deskripsi spesifik dari tindakan yang Anda curigai. Informasi ini sangat penting untuk proses investigasi kami."
+            ]
+          },
+        {
+            "tag": "Korupsi-dalam-Sistem-Peradilan",
+            "patterns": [
+              "Saya percaya ada korupsi di pengadilan",
+              "Hakim tampaknya menerima suap untuk memenangkan kasus",
+              "Ada bukti manipulasi kasus di pengadilan",
+              "Saya ingin melaporkan korupsi yang saya lihat di ruang sidang",
+              "Bagaimana cara melaporkan hakim yang korup?",
+              "Saya melihat pengacara memberi hadiah mahal kepada hakim",
+              "Ada jaksa yang meminta uang untuk menutup kasus",
+              "Saya mendengar ada suap untuk mempengaruhi putusan pengadilan",
+              "Ada bukti bahwa staf pengadilan memanipulasi dokumen untuk keuntungan pribadi",
+              "Saya mencurigai adanya pembayaran ilegal kepada petugas pengadilan",
+              "Seorang saksi memberi tahu saya tentang hakim yang menerima suap",
+              "Saya mengetahui adanya pejabat pengadilan yang bekerja sama dengan kriminal",
+              "Ada laporan bahwa kasus tertentu dipercepat atau diperlambat dengan suap",
+              "Saya melihat adanya penyalahgunaan wewenang oleh petugas peradilan",
+              "Saya menduga ada kolusi antara hakim dan pengacara dalam penanganan kasus"
+            ],
+            "response": [
+              "Terima kasih telah menghubungi kami. Untuk melaporkan dugaan korupsi dalam sistem peradilan, mohon sertakan informasi detail seperti nama, tanggal, lokasi, dan deskripsi spesifik dari tindakan yang Anda curigai. Informasi ini sangat penting untuk proses investigasi kami."
+            ]
+          },          
+        {
+            "tag": "Kleptokrasi",
+            "patterns": [
+              "Saya melihat tindakan korupsi yang melibatkan pejabat tinggi negara",
+              "Ada bukti bahwa pemimpin negara memperkaya diri sendiri dengan dana publik",
+              "Bagaimana cara melaporkan praktik kleptokrasi?",
+              "Saya ingin mengungkap kasus kleptokrasi yang terjadi di pemerintahan",
+              "Saya mengetahui ada pejabat yang menggunakan anggaran negara untuk kepentingan pribadi",
+              "Ada indikasi bahwa dana bantuan sosial disalahgunakan oleh pejabat tinggi",
+              "Saya curiga ada penggelapan dana publik oleh pemimpin daerah",
+              "Pejabat negara membeli properti mewah dengan uang yang tidak jelas asalnya",
+              "Saya mendengar laporan tentang penyalahgunaan dana pembangunan oleh pemerintah",
+              "Ada bukti kuat bahwa pejabat menggunakan kekuasaan untuk mengambil alih aset negara",
+              "Saya melihat laporan keuangan yang mencurigakan terkait pengeluaran pemerintah",
+              "Ada laporan bahwa proyek infrastruktur digunakan sebagai kedok untuk korupsi",
+              "Pejabat tinggi diduga menyalurkan dana publik ke rekening pribadi",
+              "Saya mengetahui bahwa anggaran negara dialihkan untuk kepentingan pribadi pejabat",
+              "Ada informasi bahwa pemimpin menggunakan dana negara untuk investasi pribadi"
+            ],
+            "response": [
+              "Terima kasih telah menghubungi kami. Kleptokrasi adalah praktik di mana pejabat negara memperkaya diri sendiri dengan mencuri dana publik atau aset negara. Jika Anda memiliki bukti atau informasi lebih lanjut tentang kasus kleptokrasi, kami sangat menghargai kontribusi Anda dalam memerangi korupsi. Mohon berikan rincian lebih lanjut tentang situasi yang Anda amati, termasuk nama, waktu, tempat kejadian, dan deskripsi tindakan yang mencurigakan. Informasi ini akan membantu kami dalam penyelidikan lebih lanjut."
+            ]
+          },          
+          {
+            "tag": "Suap",
+            "patterns": [
+              "Saya diminta memberikan uang agar dokumen saya diproses lebih cepat",
+              "Ada orang yang menawarkan uang untuk mendapatkan kontrak pemerintah",
+              "Saya tahu seseorang yang memberi hadiah kepada pejabat untuk mendapat izin usaha",
+              "Bagaimana cara melaporkan praktik suap yang saya saksikan?",
+              "Pejabat ini selalu meminta 'uang damai' untuk setiap transaksi",
+              "Apa langkah-langkah yang harus diambil ketika seseorang menawarkan suap kepada saya?",
+              "Saya mendengar bahwa suap adalah praktek umum di departemen ini, bagaimana cara menghentikannya?",
+              "Saya ditawari uang oleh seseorang untuk memanipulasi hasil tender.",
+              "Ada pejabat yang meminta 'uang pelicin' untuk mempercepat izin proyek saya.",
+              "Saya melihat seseorang memberikan hadiah mahal kepada pejabat untuk memenangkan kontrak.",
+              "Ada kolega yang memberi uang kepada petugas untuk mendapatkan persetujuan cepat.",
+              "Seorang pegawai negeri meminta suap agar proses administrasi saya dipercepat.",
+              "Saya mendengar kabar ada orang yang memberikan uang ke pejabat untuk mendapatkan proyek.",
+              "Teman saya diminta memberikan sejumlah uang untuk mendapatkan izin operasi.",
+              "Saya ditawari uang tunai untuk menyetujui proposal yang tidak memenuhi syarat.",
+              "Saya mengetahui seseorang yang memberi sogokan agar pemeriksaan pajak diperlonggar."
+            ],
+            "response": [
+              "Terima kasih telah menghubungi kami. Suap adalah tindakan ilegal yang merugikan integritas sistem. Untuk melaporkan praktik suap, mohon sertakan informasi detail seperti nama, waktu, dan tempat kejadian, serta deskripsi spesifik dari tindakan yang Anda curigai. Informasi ini sangat penting untuk proses investigasi kami."
+            ]
+          },
+          {
+            "tag": "Gratifikasi-Ilegal",
+            "patterns": [
+              "Saya diberi hadiah oleh klien setelah menyelesaikan proyek",
+              "Seorang kontraktor menawarkan liburan gratis sebagai imbalan atas persetujuan kontrak",
+              "Pejabat pemerintah menerima hadiah mahal dari pihak yang memiliki kepentingan",
+              "Bagaimana cara melaporkan gratifikasi yang tidak sesuai dengan aturan?",
+              "Saya curiga ada gratifikasi ilegal di departemen kami",
+              "Bagaimana cara melaporkan seseorang yang menawarkan gratifikasi kepada saya?",
+              "Saya diberi hadiah oleh klien setelah menyelesaikan proyek",
+              "Seorang kontraktor menawarkan liburan gratis sebagai imbalan atas persetujuan kontrak",
+              "Pejabat pemerintah menerima hadiah mahal dari pihak yang memiliki kepentingan",
+              "Bagaimana cara melaporkan gratifikasi yang tidak sesuai dengan aturan?",
+              "Saya curiga ada gratifikasi ilegal di departemen kami",
+              "Saya ditawari saham oleh mitra bisnis sebagai ucapan terima kasih",
+              "Ada seorang pemasok yang memberikan mobil baru kepada pejabat perusahaan",
+              "Seorang kolega menerima perangkat elektronik mahal setelah menyetujui proyek",
+              "Saya melihat bos menerima voucher belanja dari vendor",
+              "Teman saya mendapatkan hadiah uang tunai dari klien setelah menandatangani kontrak",
+              "Saya diberi tiket konser oleh mitra kerja setelah kesepakatan bisnis",
+              "Saya mengetahui ada pegawai yang menerima jam tangan mewah dari pelanggan",
+              "Saya mendengar ada pegawai yang menerima hadiah perjalanan ke luar negeri",
+              "Ada laporan bahwa pejabat menerima perhiasan dari pengusaha yang terkait dengan proyek",
+              "Saya mencurigai adanya penerimaan hadiah berupa diskon besar pada pembelian pribadi oleh pegawai"
+            ],
+            "response": [
+              "Terima kasih telah menghubungi kami. Gratifikasi ilegal adalah penerimaan hadiah atau manfaat yang tidak sesuai dengan peraturan atau hukum. Untuk melaporkan gratifikasi ilegal, mohon sertakan informasi detail seperti nama, waktu, dan tempat kejadian, serta deskripsi spesifik dari tindakan yang Anda curigai. Informasi ini sangat penting untuk proses investigasi kami."
+            ]
+          },
+          {
+            "tag": "Konflik-Kepentingan",
+            "patterns": [
+              "Saya melihat ada konflik kepentingan di lingkungan kerja saya",
+              "Pejabat di perusahaan kami terlibat dalam praktik yang merugikan perusahaan",
+              "Bagaimana cara melaporkan konflik kepentingan?",
+              "Saya ingin mengungkap kasus konflik kepentingan yang terjadi di organisasi kami",
+              "Ada dugaan konflik kepentingan yang melibatkan manajer saya, apa yang harus saya lakukan?",
+              "Saya percaya bahwa ada konflik kepentingan yang mempengaruhi keputusan pengadaan barang dan jasa",
+              "Saya mengetahui seorang kolega yang memiliki kepentingan pribadi dalam keputusan perusahaan",
+              "Ada pejabat yang memutuskan kontrak dengan perusahaan milik kerabatnya",
+              "Saya menduga ada konflik kepentingan dalam pemilihan vendor baru",
+              "Seorang atasan memberikan proyek kepada perusahaan milik teman dekatnya",
+              "Saya mendengar kabar tentang konflik kepentingan dalam proses promosi pegawai",
+              "Teman saya terlibat dalam proyek yang memiliki hubungan bisnis dengan keluarganya",
+              "Saya melihat ada kepentingan pribadi yang mempengaruhi keputusan anggaran departemen",
+              "Ada laporan bahwa seorang pejabat menggunakan posisinya untuk keuntungan pribadi",
+              "Saya curiga ada konflik kepentingan dalam alokasi dana proyek"
+            ],
+            "response": [
+              "Terima kasih telah menghubungi kami. Konflik kepentingan adalah situasi di mana individu memiliki kepentingan pribadi yang dapat mempengaruhi keputusan profesional mereka. Untuk melaporkan dugaan konflik kepentingan, mohon sertakan informasi detail seperti nama, waktu, dan tempat kejadian, serta deskripsi spesifik dari tindakan yang Anda curigai. Informasi ini akan membantu kami dalam proses investigasi lebih lanjut."
+            ]
+          }
+          
+    ]
+}
