@@ -1,1002 +1,843 @@
 {
   "intents": [
-      {
-          "tag": "administrasi-kelurahan",
-          "patterns": [
-              "Bagaimana cara membuat Kartu Keluarga (KK)?",
-              "Syarat mengurus Surat Keterangan Domisili?",
-              "Prosedur pembuatan Akta Kelahiran?",
-              "Bagaumana mengurus Surat Keterangan Tidak Mampu (SKTM)?",
-              "Mendapatkan Surat Keterangan Kematian?",
-              "Biaya administrasi untuk pembuatan Surat Pindah?",
-              "Mengurus perpanjangan Izin Usaha Mikro Kecil dan Menengah (UMKM)?",
-              "Membuat Surat Keterangan Nikah?",
-              "Perubahan data pada Kartu Tanda Penduduk (KTP)?",
-              "Pendaftaran Keluarga Berencana (KB) di kelurahan?",
-              "Mengurus Surat Keterangan Kurang Mampu?",
-              "Prosedur pembuatan Surat Keterangan Usaha?",
-              "Pengajuan permohonan KTP-el?",
-              "Surat Izin Tempat Usaha (SITU) di kelurahan?",
-              "Bagaimana pembuatan Surat Izin Keramaian (SIK) di kelurahan",
-              "Pembuatan Surat Keterangan Asal-Usul",
-              "Pembuatan Surat Keterangan Kehilangan"
-          ],
-          "response": [
-              "Mohon maaf atas pengalaman administrasi kelurahan yang anda alami. Anda bisa membuat laporan pengaduan pada bagian pengaduan dengan memberikan deskripsi aduan berupa alamat, foto, dan detail lebih mengenai kondisi yang sedang dialami. Terima Kasih"
-          ]
-      },
-      {
-          "tag": "administrasi-perusahaan",
-          "patterns": [
-              "Pelayanan administrasi sangat lambat",
-              "Dokumen saya hilang di bagian administrasi",
-              "Kesulitan mengakses informasi dari administrasi",
-              "Proses pendaftaran sangat rumit",
-              "Saya tidak mendapat jadwal yang tepat",
-              "Kesalahan dalam pencatatan data",
-              "Pengurusan surat keterangan sangat lama",
-              "Administrasi tidak responsif terhadap keluhan",
-              "Kesulitan mendapatkan informasi penting",
-              "Tidak bisa menghubungi bagian administrasi",
-              "Biaya administrasi tidak jelas",
-              "Pengembalian dana belum diproses",
-              "Dokumen penting belum diterima",
-              "Kartu identitas saya belum dicetak",
-              "Kesalahan pada data pribadi di sistem",
-              "Tidak ada petunjuk yang jelas untuk proses administrasi",
-              "Formulir online sering error",
-              "Jadwal konsultasi dengan staf administrasi tidak tersedia",
-              "Kurangnya transparansi dalam proses administrasi",
-              "Pengajuan permohonan sering ditolak tanpa alasan jelas",
-              "Kenapa pelayanan di bagian administrasi lama sekali?",
-              "Bagaimana cara memperbaiki kesalahan data di administrasi?",
-              "Mengapa sulit sekali menghubungi administrasi?",
-              "Apa yang harus saya lakukan jika dokumen hilang di administrasi?",
-              "Bagaimana cara mendapatkan informasi beasiswa dari administrasi?",
-              "Siapa yang bisa saya hubungi untuk masalah administrasi?"
-          ],
-          "response": [
-              "Mohon maaf atas kendala yang Anda alami dalam pelayanan administrasi. Kami akan segera menindaklanjuti keluhan Anda. Untuk mendapatkan bantuan lebih lanjut dengan memberikan deskripsi aduan berupa alamat, foto, dan detail lebih mengenai kondisi yang sedang dialami.Terima kasih atas kesabaran dan pengertiannya."
-          ]
-      },
-      {
-          "tag": "administrasi-lembaga-pengaduan",
-          "patterns": [
-              "Saya ingin melaporkan keluhan administrasi.",
-              "Ada masalah dengan proses administrasi di lembaga pengaduan.",
-              "Saya tidak puas dengan layanan administrasi yang diberikan.",
-              "Bagaimana saya bisa menyampaikan keluhan tentang administrasi?",
-              "Proses pengajuan saya terhambat karena masalah administrasi.",
-              "Dokumen yang saya kirimkan belum diproses dengan baik oleh staf administrasi.",
-              "Saya kesulitan berkomunikasi dengan staf administrasi terkait status pengaduan saya.",
-              "Tidak ada tanggapan atau respons dari pihak administrasi terhadap permintaan saya.",
-              "Mohon perbaikan pada sistem administrasi agar lebih efisien dalam menangani keluhan.",
-              "Apakah ada nomor kontak yang bisa saya hubungi untuk menyampaikan keluhan administrasi?",
-              "Sistem administrasi yang lambat menjadi penghambat proses pengaduan saya.",
-              "Pengalaman saya dengan staf administrasi kurang memuaskan.",
-              "Saya telah mengajukan keluhan administrasi sebelumnya namun belum mendapatkan solusi.",
-              "Administrasi yang rumit membuat saya kesulitan memahami status pengaduan saya.",
-              "Dokumen penting saya hilang di dalam sistem administrasi lembaga pengaduan.",
-              "Tolong perbaiki kesalahan administrasi yang terjadi pada pengaduan saya.",
-              "Sistem pelaporan administrasi tidak jelas dan membingungkan.",
-              "Saya mengalami kesulitan untuk memperoleh informasi terbaru mengenai pengaduan saya.",
-              "Pelayanan administrasi yang lambat menghambat penyelesaian masalah.",
-              "Proses verifikasi dokumen administrasi terlalu lama dan mengganggu.",
-              "Tidak ada transparansi dalam proses administrasi pengaduan.",
-              "Saya membutuhkan bantuan lebih lanjut terkait masalah administrasi pengaduan saya.",
-              "Administrasi yang buruk mengakibatkan penundaan dalam penyelesaian pengaduan.",
-              "Saya belum menerima konfirmasi terkait penerimaan dokumen pengaduan saya.",
-              "Administrasi yang tidak terorganisir membuat saya frustasi.",
-              "Saya kecewa dengan kebijakan administrasi yang tidak adil.",
-              "Administrasi yang kacau membuat saya ragu dengan integritas lembaga ini.",
-              "Tidak ada sistem pelacakan yang jelas untuk memantau status pengaduan saya.",
-              "Saya merasa tidak dihargai sebagai pelanggan karena masalah administrasi ini.",
-              "Proses administrasi yang terlalu rumit membuat saya kehilangan kepercayaan pada lembaga ini."
-          ],
-          "response": [
-              "Mohon maaf atas kendala yang anda alami. Mohon tunggu beberapa saat Untuk mendapatkan bantuan lebih lanjut dengan memberikan deskripsi aduan berupa alamat, foto, dan detail lebih mengenai kondisi yang sedang dialami.Terima kasih."
-          ]
-      },
-      {
-          "tag": "administrasi-kepolisian",
-          "patterns": [
-              "Saya ingin melaporkan keluhan terkait pelayanan administrasi pembuatan surat keterangan di kantor kepolisian.",
-              "Bagaimana saya bisa menyampaikan pengaduan tentang proses administrasi pembuatan SKCK di kantor kepolisian?",
-              "Ada masalah dengan proses pengurusan administrasi pembuatan SIM di kantor kepolisian.",
-              "Saya memiliki keluhan terkait penanganan dokumen laporan kehilangan di kantor kepolisian.",
-              "Saya kesulitan mendapatkan informasi tentang prosedur administrasi perpanjangan STNK di kantor kepolisian.",
-              "Proses pengajuan dokumen izin usaha di kantor kepolisian terlalu lambat.",
-              "Saya merasa tidak dihargai sebagai warga negara dalam proses administrasi pembuatan Kartu Tanda Penduduk di kantor kepolisian.",
-              "Tidak ada transparansi dalam penanganan administrasi pendaftaran pengaduan kejahatan di kepolisian.",
-              "Saya kecewa dengan kebijakan administrasi yang tidak efisien dalam pengurusan surat perjalanan di kantor kepolisian.",
-              "Sistem pelaporan administrasi kehilangan barang bukti di kepolisian terlalu rumit dan membingungkan.",
-              "Saya mengalami kesulitan berkomunikasi dengan staf administrasi penyidik di kantor kepolisian.",
-              "Proses verifikasi dokumen laporan kecelakaan lalu lintas di kantor kepolisian terlalu berbelit-belit.",
-              "Tidak ada aksesibilitas yang memadai untuk informasi administrasi pengaduan kepolisian di daerah saya.",
-              "Saya mengajukan pengaduan administrasi sebelumnya mengenai surat pemberitahuan tilang namun belum mendapatkan tanggapan yang memuaskan.",
-              "Proses administrasi pelayanan kepolisian terkait pelaporan kehilangan barang terlalu rumit dan memakan waktu.",
-              "Saya merasa terpinggirkan dalam proses administrasi pembuatan SKTM di kantor kepolisian.",
-              "Sistem pelaporan administrasi kepolisian untuk perpanjangan paspor tidak sesuai dengan kebutuhan masyarakat.",
-              "Administrasi yang buruk di kantor kepolisian mengakibatkan penundaan dalam penerbitan surat izin usaha.",
-              "Tidak ada kemajuan dalam penanganan administrasi pelayanan SKCK di kepolisian setelah saya melaporkan masalah.",
-              "Saya membutuhkan bantuan lebih lanjut untuk memahami proses administrasi perpanjangan SIM di kantor kepolisian."
-          ],
-          "response": [
-              "Mohon maaf atas kendala yang Anda alami dalam pelayanan administrasi kepolisian. Kami akan segera menindaklanjuti keluhan Anda. Untuk mendapatkan bantuan lebih lanjut dengan memberikan deskripsi aduan berupa alamat, foto, dan detail lebih mengenai kondisi yang sedang dialami. Terima kasih atas pengertiannya."
-          ]
-      },
-      {
-          "tag": "administrasi-kecamatan",
-          "patterns": [
-              "Bagaimana cara mengurus surat pindah kecamatan?",
-              "Saya ingin tahu prosedur pembuatan KTP baru di kecamatan",
-              "Apa saja dokumen yang dibutuhkan untuk mengurus SKCK di kecamatan?",
-              "Berapa lama proses pembuatan akta kelahiran di kecamatan?",
-              "Dimana saya bisa mendapatkan informasi tentang perizinan usaha?",
-              "Saya perlu bantuan untuk mengurus surat kematian",
-              "Bagaimana cara mendapatkan pelayanan administrasi kependudukan?",
-              "Apa yang harus saya lakukan untuk mengurus perpanjangan STNK?",
-              "Prosedur apa saja yang perlu diikuti untuk pembuatan paspor?",
-              "Saya ingin mengetahui jadwal pelayanan kecamatan",
-              "Dimana saya bisa mengajukan permohonan izin keramaian?",
-              "Bagaimana cara mengurus surat keterangan tidak mampu?",
-              "Saya butuh informasi tentang pengurusan surat tanah",
-              "Apa yang perlu saya siapkan untuk mengurus surat nikah?",
-              "Bagaimana proses pembuatan surat izin mengemudi?",
-              "Saya ingin mengganti alamat di KTP, apa yang harus saya lakukan?",
-              "Apa saja syarat untuk mengurus surat cerai?",
-              "Bagaimana cara mengurus surat keterangan catatan kepolisian?",
-              "Saya memerlukan informasi tentang pembuatan surat waris",
-              "Dimana saya bisa mendapatkan formulir permohonan akta jual beli?",
-              "Saya ingin mengetahui prosedur pembuatan Kartu Keluarga di kecamatan",
-              "Bagaimana cara mengurus perubahan data di Kartu Keluarga?",
-              "Saya memiliki keluhan terkait keterlambatan penerbitan KTP elektronik di kecamatan",
-              "Apakah ada layanan administrasi online untuk perpanjangan SIM di kecamatan?",
-              "Saya ingin melaporkan ketidakprofesionalan dalam pelayanan administrasi kependudukan di kecamatan",
-              "Bagaimana cara mengurus perizinan usaha bagi warga asing di kecamatan?",
-              "Saya kesulitan menghubungi kantor kecamatan untuk memperoleh informasi administrasi",
-              "Apa saja langkah-langkah untuk mendapatkan izin mendirikan bangunan di kecamatan?",
-              "Saya ingin menyampaikan keluhan tentang ketidakjelasan prosedur pembuatan Kartu Identitas Anak di kecamatan."
-          ],
-          "response": [
-              "Mohon maaf atas kendala yang Anda alami dalam pelayanan administrasi kecamatan. Kami akan segera menindaklanjuti keluhan Anda. Untuk mendapatkan bantuan lebih lanjut dengan memberikan deskripsi aduan berupa alamat, foto, dan detail lebih mengenai kondisi yang sedang dialami. Terima kasih atas kesabaran dan pengertiannya."
-          ]
-      },
-      {
-          "tag": "administrasi-rumah-sakit",
-          "patterns": [
-              "Saya ingin melaporkan keluhan terkait administrasi di rumah sakit.",
-              "Bagaimana saya bisa menyampaikan pengaduan tentang proses administrasi di rumah sakit?",
-              "Ada masalah dengan prosedur administrasi di rumah sakit.",
-              "Saya memiliki keluhan terkait penanganan dokumen medis di rumah sakit.",
-              "Proses pembayaran tagihan rumah sakit terlalu rumit.",
-              "Saya kesulitan mendapatkan informasi tentang tarif layanan di rumah sakit.",
-              "Tidak ada transparansi dalam biaya administrasi rumah sakit.",
-              "Proses pendaftaran pasien di rumah sakit terlalu lama.",
-              "Dokumen medis saya hilang di dalam sistem administrasi rumah sakit.",
-              "Saya merasa tidak dihargai sebagai pasien dalam proses administrasi rumah sakit.",
-              "Tidak ada koordinasi yang baik antara departemen administrasi di rumah sakit.",
-              "Saya memerlukan bantuan untuk mengurus surat rujukan dari rumah sakit.",
-              "Bagaimana cara mendapatkan informasi tentang jadwal dokter di rumah sakit?",
-              "Saya memiliki keluhan tentang keterlambatan pembuatan kartu pasien di rumah sakit.",
-              "Tidak ada kemajuan dalam penanganan administrasi pengaduan kesehatan di rumah sakit setelah saya melaporkan masalah.",
-              "Proses pengajuan klaim asuransi di rumah sakit terlalu rumit dan memakan waktu.",
-              "Saya ingin mengetahui prosedur pengambilan hasil tes diagnostik di rumah sakit.",
-              "Proses verifikasi data pasien di rumah sakit terlalu berbelit-belit.",
-              "Tidak ada aksesibilitas yang memadai untuk informasi administrasi rumah sakit di daerah saya.",
-              "Saya mengajukan pengaduan administrasi sebelumnya namun belum mendapatkan tanggapan yang memuaskan dari rumah sakit.",
-              "Sistem pelaporan administrasi di rumah sakit tidak sesuai dengan kebutuhan pasien.",
-              "Administrasi yang buruk di rumah sakit mengakibatkan penundaan dalam penanganan kasus medis.",
-              "Tidak ada kemajuan dalam penanganan administrasi pelayanan pasien di rumah sakit setelah saya melaporkan masalah.",
-              "Saya membutuhkan bantuan lebih lanjut untuk memahami proses administrasi pengambilan obat di rumah sakit.",
-              "Dimana saya bisa mengajukan permohonan rekam medis di rumah sakit?",
-              "Saya ingin melaporkan ketidakprofesionalan dalam pelayanan administrasi kesehatan di rumah sakit.",
-              "Bagaimana cara mengurus surat keterangan sehat di rumah sakit?",
-              "Saya memerlukan informasi tentang pembuatan janji temu dengan dokter spesialis di rumah sakit."
-          ],
-          "response": [
-              "Mohon maaf atas kendala yang Anda alami dalam pelayanan administrasi rumah sakit. Untuk memberikan bantuan lebih lanjut, mohon berikan deskripsi aduan berupa alamat, foto, dan detail lebih mengenai kondisi yang sedang dialami.Terima kasih atas pengertiannya."
-          ]
-      },
-      {
-          "tag": "administrasi-kantor-pajak",
-          "patterns": [
-              "Saya ingin melaporkan keluhan terkait administrasi di kantor pajak.",
-              "Bagaimana saya bisa menyampaikan pengaduan tentang proses administrasi di kantor pajak?",
-              "Ada masalah dengan prosedur administrasi di kantor pajak.",
-              "Saya memiliki keluhan terkait penanganan dokumen pajak di kantor pajak.",
-              "Proses pengajuan SPT tahunan terlalu lambat.",
-              "Saya kesulitan mendapatkan informasi tentang tarif pajak di kantor pajak.",
-              "Tidak ada transparansi dalam biaya administrasi di kantor pajak.",
-              "Proses pendaftaran NPWP terlalu lama.",
-              "Dokumen pajak saya hilang di dalam sistem administrasi kantor pajak.",
-              "Saya merasa tidak dihargai sebagai wajib pajak dalam proses administrasi di kantor pajak.",
-              "Tidak ada koordinasi yang baik antara departemen administrasi di kantor pajak.",
-              "Saya memerlukan bantuan untuk mengurus surat keterangan bebas pajak.",
-              "Bagaimana cara mendapatkan informasi tentang jadwal pelayanan di kantor pajak?",
-              "Saya memiliki keluhan tentang keterlambatan pembuatan kartu NPWP di kantor pajak.",
-              "Tidak ada kemajuan dalam penanganan administrasi pengaduan pajak di kantor pajak setelah saya melaporkan masalah.",
-              "Proses pengajuan restitusi pajak terlalu rumit dan memakan waktu.",
-              "Saya ingin mengetahui prosedur pengambilan hasil pemeriksaan pajak di kantor pajak.",
-              "Proses verifikasi data wajib pajak di kantor pajak terlalu berbelit-belit.",
-              "Tidak ada aksesibilitas yang memadai untuk informasi administrasi pajak di daerah saya.",
-              "Saya mengajukan pengaduan administrasi sebelumnya namun belum mendapatkan tanggapan yang memuaskan dari kantor pajak.",
-              "Sistem pelaporan administrasi di kantor pajak tidak sesuai dengan kebutuhan wajib pajak.",
-              "Administrasi yang buruk di kantor pajak mengakibatkan penundaan dalam penanganan kasus pajak.",
-              "Tidak ada kemajuan dalam penanganan administrasi pelayanan pajak di kantor pajak setelah saya melaporkan masalah.",
-              "Saya membutuhkan bantuan lebih lanjut untuk memahami proses administrasi pengurangan pajak di kantor pajak.",
-              "Dimana saya bisa mengajukan permohonan pembetulan SPT di kantor pajak?",
-              "Saya ingin melaporkan ketidakprofesionalan dalam pelayanan administrasi pajak di kantor pajak.",
-              "Bagaimana cara mengurus surat keterangan tidak punya penghasilan di kantor pajak?",
-              "Saya memerlukan informasi tentang pembuatan janji temu dengan petugas pajak di kantor pajak."
-          ],
-          "response": [
-              "Mohon maaf atas kendala yang Anda alami dalam pelayanan administrasi di kantor pajak. Kami sangat menghargai masukan Anda dan akan segera menindaklanjuti keluhan Anda. Untuk mempercepat proses penyelesaian, kami mohon agar Anda dapat memberikan informasi lebih lanjut seperti deskripsi aduan berupa alamat, foto, dan detail lebih mengenai kondisi yang sedang dialami. Kami berkomitmen untuk meningkatkan kualitas pelayanan dan memastikan bahwa setiap pengaduan mendapatkan perhatian yang serius. Terima kasih atas kesabaran dan pengertiannya."
-          ]
-      },
-      {
-          "tag": "administrasi-sekolah",
-          "patterns": [
-              "Saya ingin melaporkan keluhan terkait administrasi di sekolah.",
-              "Bagaimana saya bisa menyampaikan pengaduan tentang proses administrasi di sekolah?",
-              "Ada masalah dengan prosedur administrasi di sekolah.",
-              "Saya memiliki keluhan terkait penanganan dokumen akademik di sekolah.",
-              "Proses pendaftaran siswa baru terlalu rumit di sekolah.",
-              "Saya kesulitan mendapatkan informasi tentang biaya sekolah.",
-              "Tidak ada transparansi dalam biaya administrasi di sekolah.",
-              "Proses penerimaan rapor siswa terlalu lama.",
-              "Dokumen akademik anak saya hilang di dalam sistem administrasi sekolah.",
-              "Saya merasa tidak dihargai sebagai orang tua dalam proses administrasi di sekolah.",
-              "Saya butuh bantuan untuk mengurus pindah sekolah anak saya.",
-              "Bagaimana cara mendapatkan informasi tentang jadwal ujian di sekolah?",
-              "Proses pengajuan beasiswa di sekolah terlalu rumit.",
-              "Tidak ada kemajuan dalam penanganan administrasi setelah saya melaporkan masalah di sekolah.",
-              "Proses verifikasi data siswa di sekolah terlalu berbelit-belit.",
-              "Tidak ada aksesibilitas yang memadai untuk informasi administrasi sekolah.",
-              "Saya mengajukan pengaduan administrasi sebelumnya namun belum mendapatkan tanggapan dari sekolah.",
-              "Sistem pelaporan administrasi di sekolah tidak sesuai dengan kebutuhan orang tua.",
-              "Administrasi yang buruk di sekolah mengakibatkan penundaan dalam pengambilan rapor.",
-              "Tidak ada kemajuan dalam penanganan administrasi setelah saya melaporkan masalah di sekolah.",
-              "Saya membutuhkan bantuan lebih lanjut untuk memahami proses administrasi pengajuan beasiswa di sekolah.",
-              "Dimana saya bisa mengajukan permohonan perubahan data siswa di sekolah?",
-              "Saya ingin melaporkan ketidakprofesionalan dalam pelayanan administrasi di sekolah.",
-              "Bagaimana cara mengurus surat keterangan pindah sekolah di sekolah?",
-              "Saya memerlukan informasi tentang prosedur pendaftaran ulang di sekolah.",
-              "Proses pembayaran SPP di sekolah terlalu rumit.",
-              "Saya mengalami kesulitan dalam mengurus administrasi ekstrakurikuler di sekolah.",
-              "Tidak ada transparansi dalam penggunaan dana BOS di sekolah.",
-              "Saya ingin mengetahui prosedur pengajuan cuti akademik di sekolah.",
-              "Bagaimana cara mendapatkan informasi tentang kegiatan sekolah?"
-          ],
-          "response": [
-              "Mohon maaf atas kendala yang Anda alami dalam pelayanan administrasi di sekolah. Untuk membantu kami menangani masalah ini dengan lebih efektif, mohon berikan informasi lebih lanjut tentang keluhan Anda, termasuk alamat, foto, dan detail lebih mengenai kondisi yang sedang dialami. Kami berkomitmen untuk meningkatkan kualitas pelayanan dan memastikan setiap pengaduan mendapatkan perhatian yang serius. Terima kasih."
-          ]
-      },
-      {
-          "tag": "pengaduan-kejaksaan-negeri",
-          "patterns": [
-              "Saya ingin melaporkan keluhan terkait administrasi di kejaksaan negeri.",
-              "Bagaimana saya bisa menyampaikan pengaduan tentang proses administrasi di kejaksaan negeri?",
-              "Ada masalah dengan prosedur administrasi di kejaksaan negeri.",
-              "Saya memiliki keluhan terkait penanganan dokumen hukum di kejaksaan negeri.",
-              "Proses pengajuan berkas perkara terlalu lama di kejaksaan negeri.",
-              "Saya kesulitan mendapatkan informasi tentang status kasus di kejaksaan negeri.",
-              "Tidak ada transparansi dalam biaya administrasi di kejaksaan negeri.",
-              "Proses pendaftaran perkara terlalu rumit di kejaksaan negeri.",
-              "Dokumen kasus saya hilang di dalam sistem administrasi kejaksaan negeri.",
-              "Saya merasa tidak dihargai sebagai pelapor dalam proses administrasi di kejaksaan negeri.",
-              "Tidak ada koordinasi yang baik antara departemen administrasi di kejaksaan negeri.",
-              "Saya memerlukan bantuan untuk mengurus surat keterangan dari kejaksaan negeri.",
-              "Bagaimana cara mendapatkan informasi tentang jadwal sidang di kejaksaan negeri?",
-              "Saya memiliki keluhan tentang keterlambatan penanganan berkas di kejaksaan negeri.",
-              "Tidak ada kemajuan dalam penanganan administrasi pengaduan hukum di kejaksaan negeri setelah saya melaporkan masalah.",
-              "Proses verifikasi data perkara di kejaksaan negeri terlalu berbelit-belit.",
-              "Tidak ada aksesibilitas yang memadai untuk informasi administrasi hukum di daerah saya.",
-              "Saya mengajukan pengaduan administrasi sebelumnya namun belum mendapatkan tanggapan yang memuaskan dari kejaksaan negeri.",
-              "Sistem pelaporan administrasi di kejaksaan negeri tidak sesuai dengan kebutuhan masyarakat.",
-              "Administrasi yang buruk di kejaksaan negeri mengakibatkan penundaan dalam penanganan kasus hukum.",
-              "Tidak ada kemajuan dalam penanganan administrasi pelayanan hukum di kejaksaan negeri setelah saya melaporkan masalah.",
-              "Saya membutuhkan bantuan lebih lanjut untuk memahami proses administrasi pengajuan bukti di kejaksaan negeri.",
-              "Dimana saya bisa mengajukan permohonan revisi dokumen di kejaksaan negeri?",
-              "Saya ingin melaporkan ketidakprofesionalan dalam pelayanan administrasi di kejaksaan negeri.",
-              "Bagaimana cara mengurus surat keterangan tidak terlibat dalam kasus hukum di kejaksaan negeri?"
-          ],
-          "response": [
-              "Mohon maaf atas kendala yang Anda alami dalam pelayanan administrasi di kejaksaan negeri. Kami akan segera menindaklanjuti keluhan Anda. Untuk membantu kami menangani masalah ini dengan lebih efektif, mohon berikan informasi lebih lanjut tentang keluhan Anda, termasuk alamat, foto, dan detail lebih mengenai kondisi yang sedang dialami. Kami berkomitmen untuk meningkatkan kualitas pelayanan dan memastikan setiap pengaduan mendapatkan perhatian yang serius. Terima kasih atas kesabaran dan pengertiannya."
-          ]
-      },
-      {
-          "tag": "pengaduan-fasilitas-sekolah",
-          "patterns": [
-              "Kebersihan di sekolah ini kurang terjaga",
-              "Fasilitas olahraga di sekolah ini rusak",
-              "Buku di perpustakaan banyak yang sudah usang",
-              "Kondisi toilet di sekolah sangat buruk",
-              "Penerangan di area parkir sekolah kurang memadai",
-              "Ruangan kelas terlalu panas karena AC rusak",
-              "Keamanan di sekolah ini kurang baik",
-              "Tempat sampah di sekolah jarang dikosongkan",
-              "Wifi di sekolah sering tidak berfungsi",
-              "Transportasi sekolah sering terlambat",
-              "Lapangan olahraga sering tergenang air",
-              "Banyak siswa yang merokok di area sekolah",
-              "Tidak ada ruang hijau di sekolah ini",
-              "Kegiatan ekstrakurikuler sering bentrok dengan jadwal pelajaran",
-              "Fasilitas di sekolah ini kurang memadai",
-              "Kebersihan di sekolah sangat buruk",
-              "Toilet sekolah sering kotor",
-              "Terlalu banyak sampah di sekitar sekolah",
-              "Sarana olahraga rusak dan tidak bisa digunakan",
-              "AC di ruang kelas tidak berfungsi",
-              "Terlalu banyak siswa di dalam satu kelas",
-              "Buku di perpustakaan banyak yang rusak",
-              "Sistem parkir tidak teratur",
-              "Ruang kelas kurang pencahayaan",
-              "Internet di sekolah sering bermasalah",
-              "Bangku di kelas banyak yang rusak",
-              "sebagian besar bangku di ruang kelas rusak dan tidak aman untuk digunakan oleh siswa.",
-              "Kondisi bangku di ruang kelas banyak yang sudah rusak dan tidak layak digunakan.",
-              "Lapangan di sekolah kami sangat tidak terawat dan tidak bisa digunakan untuk kegiatan olahraga.",
-              "Toilet di sekolah kami seringkali dalam kondisi kotor dan tidak layak digunakan.",
-              "Beberapa sarana di lingkungan sekolah kami kurang atau tidak berfungsi, seperti fasilitas air minum dan pendingin ruangan.",
-              "lapangan sekolah kami kurang terawat dan tidak aman untuk digunakan oleh siswa.",
-              "Toilet di ruang kelas kami sering mengalami kerusakan dan butuh perbaikan segera.",
-              "fasilitas di lingkungan sekolah tidak berfungsi dengan baik, seperti lampu-lampu yang mati dan pintu yang rusak.",
-              "Kondisi toilet di sekolah kami sangat tidak memadai dan perlu perbaikan segera.",
-              "kebersihan dan kondisi toilet di sekolah kami yang tidak terjaga.",
-              "Toilet di lingkungan sekolah kami sering mengalami masalah kebersihan dan butuh perhatian lebih.",
-              "Alat olahraga rusak dan tidak dapat digunakan untuk kegiatan fisik siswa.",
-              "Ruang kelas di sekolah kami kurang memadai.",
-              "Beberapa alat olahraga di lingkungan sekolah kami sudah tua dan butuh penggantian segera.",
-              "ruang kelas sering mengalami masalah kebocoran dan.",
-              "Sarana olahraga di sekolah tidak mencukupi membuat siswa sulit untuk berpartisipasi dalam kegiatan fisik."
-          ],
-          "response": [
-              "Terima kasih atas pertanyaan Anda mengenai pengaduan fasilitas di lingkungan sekolah. Kami mohon maaf atas pengalaman tidak menyenangkan yang Anda alami. Untuk mengajukan laporan pengaduan, silakan berikan deskripsi lengkap mengenai masalah yang Anda hadapi, termasuk alamat, foto, dan kondisi yang Anda alami di lingkungan sekolah. Terima kasih"
-          ]
-      },
-      {
-          "tag": "pengaduan-akses-pendidikan",
-          "patterns": [
-              "Siswa di desa terpencil kesulitan mencapai sekolah karena jarak yang terlalu jauh.",
-              "Anak-anak harus berjalan sangat jauh untuk mencapai sekolah.",
-              "Sekolah terlalu jauh dari tempat tinggal siswa.",
-              "Perjalanan ke sekolah membutuhkan waktu yang sangat lama.",
-              "Tidak ada sekolah yang dekat dengan rumah kami.",
-              "Jarak sekolah sangat jauh dari desa kami.",
-              "Anak-anak harus menyeberangi sungai dan bukit untuk pergi ke sekolah.",
-              "Orang tua khawatir karena jarak sekolah yang terlalu jauh.",
-              "Siswa sering terlambat karena jarak yang jauh ke sekolah.",
-              "Tidak ada transportasi yang memadai untuk siswa yang tinggal jauh dari sekolah.",
-              "Jarak ke sekolah sangat jauh sehingga siswa sering kelelahan.",
-              "Sekolah berada di lokasi yang sangat terpencil dan sulit dijangkau.",
-              "Banyak siswa yang terpaksa tidak sekolah karena jaraknya terlalu jauh.",
-              "Perjalanan ke sekolah memakan waktu berjam-jam setiap hari.",
-              "Sekolah satu-satunya terlalu jauh untuk dijangkau oleh anak-anak.",
-              "Tidak ada kendaraan umum yang menuju sekolah dari desa kami.",
-              "Anak-anak harus bangun sangat pagi untuk bisa sampai di sekolah tepat waktu.",
-              "Kami membutuhkan solusi transportasi untuk siswa yang rumahnya jauh dari sekolah.",
-              "Jarak sekolah menyebabkan anak-anak sering absen.",
-              "Sekolah terlalu jauh sehingga anak-anak tidak bisa bersekolah setiap hari."
-          ],
-          "response": [
-              "Terima kasih atas pertanyaan Anda mengenai akses pendidikan. Kami mohon maaf atas pengalaman tidak menyenangkan yang Anda alami. Untuk mengajukan laporan pengaduan terkait akses pendidikan, silakan berikan deskripsi lengkap mengenai masalah yang Anda hadapi, termasuk alamat, foto, dan kondisi yang Anda alami. Terima kasih."
-          ]
-      },
-      {
-          "tag": "pengaduan-kurikulum-pendidikan",
-          "patterns": [
-              "Saya ingin tahu apakah ada pembaruan terbaru dalam kurikulum pendidikan?",
-              "Apakah ada perubahan terbaru dalam kurikulum sekolah?",
-              "Bagaimana dengan pembaruan kurikulum pendidikan tahun ini?",
-              "Apakah ada materi baru yang ditambahkan ke dalam kurikulum sekolah?",
-              "Bisakah Anda memberikan informasi tentang pembaruan terbaru dalam kurikulum pendidikan?",
-              "Saya ingin memahami apakah ada perubahan dalam struktur kurikulum sekolah.",
-              "Apakah ada perubahan signifikan dalam kurikulum pendidikan dasar?",
-              "Saya ingin mengetahui apakah kurikulum pendidikan menekankan pada keterampilan teknologi.",
-              "Apakah ada penambahan kurikulum untuk mata pelajaran matematika?",
-              "Bagaimana kurikulum pendidikan menangani pendidikan karakter?",
-              "Saya ingin memeriksa apakah ada pembaruan dalam kurikulum pendidikan tinggi.",
-              "Apakah ada perubahan dalam kurikulum sains dan penelitian?",
-              "Saya ingin mendapatkan informasi tentang penyesuaian kurikulum untuk inklusi siswa dengan kebutuhan khusus.",
-              "Apakah kurikulum pendidikan mencakup pendidikan lingkungan yang lebih luas?",
-              "Bagaimana dengan penekanan pada keterampilan bahasa dan sastra dalam kurikulum pendidikan?",
-              "Saya ingin mengetahui apakah kurikulum pendidikan menangani pengembangan keterampilan sosial siswa.",
-              "Apakah kurikulum pendidikan menggabungkan aspek keberagaman budaya?",
-              "Saya ingin tahu apakah kurikulum pendidikan telah diubah untuk mengakomodasi teknologi baru.",
-              "Apakah ada penambahan kurikulum untuk pembelajaran berbasis proyek atau pengalaman nyata?",
-              "Bagaimana dengan peningkatan fokus pada literasi media dalam kurikulum pendidikan?",
-              "Saya ingin mengetahui apakah kurikulum pendidikan mencakup pembelajaran keterampilan kehidupan sehari-hari."
-          ],
-          "response": [
-              "Terima kasih atas keluhan Anda mengenai kurikulum pendidikan. Kami mohon maaf atas pengalaman tidak menyenangkan yang Anda alami. Untuk memberikan keluhan terkait kurikulum pendidikan, silakan berikan deskripsi lengkap mengenai masalah yang Anda temui, termasuk alamat, foto, dan kondisi yang Anda alami. Terima kasih."
-          ]
-      },
-      {
-          "tag": "pengaduan-kedisiplinan-sekolah",
-          "patterns": [
-              "Saya ingin mengajukan pengaduan terkait pelanggaran tata tertib di sekolah.",
-              "Bagaimana saya bisa melaporkan siswa yang sering melakukan pelanggaran disiplin di sekolah?",
-              "Saya ingin memberikan laporan terkait ketidakdisiplinan siswa di lingkungan sekolah.",
-              "Apakah ada saluran pengaduan untuk masalah kedisiplinan di sekolah?",
-              "Kami ingin melaporkan kejadian ketidakpatuhan terhadap aturan sekolah yang terjadi.",
-              "Bagaimana cara melaporkan siswa yang sering terlambat datang ke sekolah?",
-              "Saya ingin mengajukan keluhan terkait perilaku tidak pantas siswa di sekolah.",
-              "Apakah ada prosedur khusus untuk melaporkan pelanggaran disiplin di sekolah kepada pihak yang berwenang?",
-              "Sekolah kami membutuhkan langkah-langkah tegas terkait masalah ketidakdisiplinan siswa.",
-              "Bagaimana saya bisa memberikan laporan tentang ketidakpatuhan terhadap peraturan pelanggaran pakaian di sekolah?",
-              "Saya ingin melaporkan siswa yang sering bolos pelajaran di sekolah.",
-              "Apakah ada saluran pengaduan yang bisa digunakan untuk melaporkan masalah ketidakpatuhan siswa di lingkungan sekolah?",
-              "Kami ingin memberikan laporan terkait ketidakpatuhan terhadap peraturan penggunaan gadget di sekolah.",
-              "Bagaimana cara mengajukan keluhan terkait pelanggaran disiplin oleh guru di sekolah?",
-              "Saya ingin mengajukan keluhan terkait tindakan bullying yang terjadi di sekolah.",
-              "Apakah ada prosedur untuk melaporkan siswa yang sering melakukan kecurangan selama ujian di sekolah?",
-              "Sekolah kami membutuhkan langkah-langkah preventif untuk mengatasi masalah disiplin siswa.",
-              "Bagaimana saya bisa memberikan laporan tentang ketidakpatuhan terhadap peraturan absensi di sekolah?",
-              "Maraknya kenakalan remaja di lingkungan sekolah.",
-              "Pengaduan untuk masalah kedisiplinan di sekolah?",
-              "ketidakpatuhan terhadap peraturan parkir di area sekolah.",
-              "ketidakpatuhan terhadap jadwal pelajaran di sekolah?",
-              "Banyaknya kejadian penggunaan bahasa kasar oleh siswa di lingkungan sekolah.",
-              "Apakah ada prosedur untuk melaporkan siswa yang sering membuat kerusuhan di kantin sekolah?",
-              "Sekolah kami membutuhkan langkah-langkah penegakan hukum terkait pelanggaran disiplin."
-          ],
-          "response": [
-              "Terima kasih atas pengaduan Anda terkait masalah kedisiplinan di sekolah. Kami akan segera menindaklanjuti laporan ini dengan memberikan deskripsi lengkap mengenai masalah yang Anda temui, termasuk alamat, foto, dan kondisi yang Anda alami. Kami sangat menghargai kerjasama Anda dalam menjaga ketertiban dan keamanan lingkungan belajar. Jika Anda memiliki informasi tambahan atau memerlukan bantuan lebih lanjut, jangan ragu untuk menghubungi kami. Terima kasih."
-          ]
-      },
-      {
-          "tag": "pengaduan-kampus",
-          "patterns": [
-              "ketidakpuasan dengan fasilitas di kampus.",
-              "ketidaksesuaian dengan aturan kampus.",
-              "keluhan terkait pelayanan di kampus.",
-              "kejadian meresahkan di area kampus.",
-              "kurangnya sarana dan prasarana di kampus.",
-              "masalah kinerja staf administrasi.",
-              "keamanan atau gangguan di kampus.",
-              "ketidakadilan atau pelecehan di kampus.",
-              "Masalah kebijakan akademik.",
-              "Gangguan lingkungan atau polusi di kampus.",
-              "Kejadian tidak etis atau perilaku tidak pantas di kampus.",
-              "Penyalahgunaan atau pencemaran lingkungan di kampus.",
-              "kekurangan ruang kelas atau laboratorium di kampus.",
-              "Fasilitas olahraga yang tidak memadai di kampus.",
-              "ketidaknyamanan di ruang studi atau perpustakaan kampus.",
-              "Layanan internet atau koneksi WiFi di kampus yang lambat.",
-              "kekurangan fasilitas kesehatan atau layanan medis di kampus.",
-              "Terjadinya kecelakaan atau cedera di lingkungan kampus.",
-              "Adanya perilaku diskriminatif atau rasis di kampus.",
-              "Parkir atau transportasi di kampus yang kurang memadai.",
-              "Kebisingan atau gangguan suara di kampus.",
-              "Laporkan tindakan vandalisme atau perusakan properti di kampus.",
-              "Kekurangan fasilitas penyandang disabilitas di kampus.",
-              "Kekhawatiran terkait kebersihan atau sanitasi di kampus.",
-              "Gangguan terhadap kegiatan akademik atau administratif di kampus.",
-              "Sampaikan kekurangan atau ketidaktersediaan fasilitas makanan di kampus.",
-              "Kejadian pencurian atau kehilangan barang di kampus.",
-              "Kehadiran hewan liar atau serangga yang mengganggu di kampus.",
-              "Kebakaran atau keamanan kebakaran di kampus.",
-              "kebijakan kebersihan atau daur ulang di kampus."
-          ],
-          "response": [
-              "Terima kasih atas laporan Anda terkait masalah yang terjadi di kampus. Kami akan segera menindaklanjuti laporan ini dengan memberikan deskripsi lengkap mengenai masalah yang Anda temui, termasuk alamat, foto, dan kondisi yang Anda alami.jangan ragu untuk menghubungi kami. Terima kasih."
-          ]
-      },
-      {
-          "tag": "Pengaduan-Teknologi-pendidikan",
-          "patterns": [
-              "Laporkan masalah teknis di platform e-learning kampus.",
-              "Keluhan sistem manajemen pembelajaran yang bermasalah.",
-              "Sampaikan kendala saat menggunakan aplikasi pembelajaran.",
-              "Bagaimana melaporkan permasalahan perangkat lunak pembelajaran online?",
-              "Kesulitan akses sumber daya digital untuk pembelajaran.",
-              "Laporkan masalah dalam kuliah online atau tutorial.",
-              "Sistem kolaborasi online di kelas tidak berfungsi.",
-              "Sampaikan kesulitan akses webinar atau kuliah online kampus.",
-              "Saluran pengaduan untuk masalah teknis teknologi pendidikan?",
-              "Laporkan kendala platform pembelajaran interaktif.",
-              "Ajukan keluhan integrasi sistem manajemen pembelajaran.",
-              "Masalah integrasi kalender akademik platform pembelajaran.",
-              "Bagaimana mengadukan gangguan sistem penyimpanan file kampus?",
-              "Laporkan kesalahan tata letak platform pembelajaran.",
-              "Sampaikan masalah sistem pemberian tugas atau ujian online.",
-              "Bagaimana melaporkan kesalahan akses perpustakaan digital kampus?",
-              "Keluhan akses materi pembelajaran online.",
-              "Adanya kesulitan akses siswa penyandang disabilitas.",
-              "Bagaimana melaporkan hilang atau rusaknya perangkat kampus?",
-              "Gangguan koneksi internet kampus.",
-              "Kesalahan pembaruan platform pembelajaran.",
-              "Mengajukan keluhan keamanan data pribadi di platform pembelajaran.",
-              "Sampaikan masalah kompatibilitas perangkat pembelajaran dan siswa.",
-              "Bagaimana melaporkan kesalahan materi pembelajaran online?",
-              "Kesalahan integrasi platform pembelajaran dan administrasi.",
-              "Keluhan lambatnya dukungan teknis IT kampus.",
-              "Seringnya terjadi masalah instruksi atau panduan pengguna platform pembelajaran."
-          ],
-          "response": [
-              "Terima kasih atas pengaduan Anda terkait masalah teknis dalam teknologi pendidikan. Kami akan segera menindaklanjuti laporan ini dengan memberikan deskripsi lengkap mengenai masalah yang Anda temui, termasuk alamat, foto, dan kondisi yang Anda alami. Terima Kasih"
-          ]
-      },
-      {
-        "tag": "pengaduan-jalan-rusak",
-        "patterns": [
-          "Ada jalan rusak depan rumah saya",
-          "Jalan di dekat sekolah kami berlubang",
-          "Aspal di jalan ini sudah mengelupas",
-          "Jalan menuju pasar sangat tidak rata",
-          "Ada kerusakan di jalan raya yang sering dilalui",
-          "Jalan utama ke kantor saya retak",
-          "Lubang besar di tengah jalan mengganggu lalu lintas",
-          "Jalan penghubung antar desa rusak parah",
-          "Jalan layang baru saja retak, perlu diperbaiki",
-          "Jalan menuju rumah sakit penuh dengan lubang",
-          "Jalan provinsi ini sudah lama tidak diperbaiki",
-          "Jalan menuju stasiun kereta rusak berat",
-          "Jalan aspal di kompleks saya sudah pecah",
-          "Jalan beton di depan toko saya mengalami keretakan",
-          "Jalan lingkungan kami rusak setelah hujan deras",
-          "Jalan akses ke perkebunan rusak tidak bisa dilewati",
-          "Jalan menuju tempat wisata ini sangat buruk kondisinya",
-          "Jalan di depan kampus mengalami penurunan kualitas",
-          "Jalan ini berbahaya karena banyak lubang",
-          "Jalan di area perumahan kami sangat memprihatinkan"
-        ],
-        "response": [
-          "Mohon maaf atas pengalaman buruk jalan rusak yang anda alami. Anda bisa membuat laporan pengaduan pada bagian pengaduan dengan memberikan deskripsi aduan berupa alamat, foto, dan detail lebih mengenai kondisi jalan yang rusak. Terima Kasih"
-        ]
-      },
-      {
-        "tag": "pengaduan-kebakaran",
-        "patterns": [
-          "Ada kebakaran di gedung sebelah",
-          "Rumah tetangga saya terbakar, tolong segera!",
-          "Kebakaran besar di pabrik dekat sini",
-          "Api mulai menjalar ke rumah-rumah warga",
-          "Kebun di belakang rumah saya terbakar",
-          "Ada asap tebal, sepertinya ada kebakaran",
-          "Kebakaran di pasar, banyak pedagang panik",
-          "Api dari kebakaran hutan semakin mendekat",
-          "Kebakaran di area perkantoran, butuh bantuan",
-          "Laporkan kebakaran di kompleks perumahan ini",
-          "Toko di jalan utama terbakar, butuh bantuan cepat",
-          "Kebakaran di sekolah, semua murid sudah dievakuasi",
-          "Gudang penyimpanan barang terbakar, banyak asap hitam",
-          "Kebakaran di lahan kosong, api semakin membesar",
-          "Rumah di pinggir jalan mengalami kebakaran hebat",
-          "Kebakaran di kawasan industri, banyak pabrik terancam",
-          "Kebakaran di apartemen, banyak orang terjebak",
-          "Kebakaran di restoran, api berasal dari dapur",
-          "Kebakaran di stasiun bensin, situasi sangat darurat",
-          "Kebakaran di taman kota, banyak pohon yang terbakar"
-        ],
-        "response": [
-          "Mohon maaf atas kejadian kebakaran yang Anda laporkan. Untuk penanganan lebih lanjut, silakan hubungi nomor darurat kebakaran atau lakukan laporan pengaduan dengan menyertakan lokasi, waktu kejadian, dan foto jika memungkinkan. Kami akan segera mengirim bantuan. Terima kasih atas laporan Anda."
-        ]
-      },
-      {
-        "tag": "kemacetan-lalu-lintas",
-        "patterns": [
-          "Jalan utama di kota kami selalu macet setiap pagi",
-          "Ada kemacetan parah di persimpangan dekat kantor saya",
-          "Lalu lintas sangat padat di sekitar sekolah setiap sore",
-          "Bagaimana cara melaporkan kemacetan lalu lintas yang sering terjadi?",
-          "Saya ingin mengadukan kemacetan yang selalu terjadi di jalan tol",
-          "Kapan pemerintah akan mengatasi masalah kemacetan di jalan utama?",
-          "Kemacetan di daerah ini semakin parah setiap harinya",
-          "Lampu lalu lintas di persimpangan ini sering tidak berfungsi, menyebabkan kemacetan",
-          "Ada pekerjaan jalan yang menyebabkan kemacetan panjang setiap hari",
-          "Terlalu banyak kendaraan parkir sembarangan di sepanjang jalan ini, menyebabkan kemacetan",
-          "Apakah ada rencana untuk mengurangi kemacetan di pusat kota?",
-          "Kemacetan di dekat stasiun kereta api sangat mengganggu aktivitas harian",
-          "Saya mengalami kemacetan yang parah setiap kali melewati jalan ini",
-          "Jalan alternatif yang disarankan juga mengalami kemacetan",
-          "Pengaturan lalu lintas yang buruk menyebabkan kemacetan panjang"
-        ],
-        "response": [
-          "Terima kasih telah menghubungi kami. Kami memahami bahwa kemacetan lalu lintas dapat sangat mengganggu aktivitas sehari-hari. Untuk membantu kami menangani masalah ini, mohon berikan informasi lebih lanjut seperti lokasi spesifik, waktu terjadinya kemacetan, dan faktor-faktor yang Anda anggap menyebabkan kemacetan. Informasi ini sangat penting untuk proses investigasi dan perencanaan solusi kami."
-        ]
-      },
-      {
-        "tag": "parkir-liar",
-        "patterns": [
-          "Ada banyak kendaraan yang parkir sembarangan di jalan ini",
-          "Kendaraan parkir di trotoar menghalangi pejalan kaki",
-          "Parkir liar di depan toko saya mengganggu pelanggan",
-          "Bagaimana cara melaporkan parkir liar di lingkungan saya?",
-          "Mobil-mobil parkir sembarangan di area ini setiap malam",
-          "Parkir liar di sekitar sekolah mengganggu lalu lintas",
-          "Ada kendaraan yang parkir di tempat yang tidak seharusnya setiap hari",
-          "Saya ingin melaporkan parkir liar di depan rumah saya",
-          "Banyak kendaraan yang parkir di jalan sempit ini, menyebabkan kemacetan",
-          "Apakah ada tindakan terhadap parkir liar di kawasan perumahan kami?",
-          "Kendaraan parkir liar di area ini menghalangi akses keluar-masuk",
-          "Mobil parkir sembarangan di jalur sepeda",
-          "Parkir liar mengganggu operasi bisnis di daerah kami",
-          "Saya melihat banyak kendaraan parkir di zona larangan parkir",
-          "Parkir liar di depan gedung ini sangat mengganggu"
-        ],
-        "response": [
-          "Terima kasih telah menghubungi kami. Kami mengerti bahwa parkir liar dapat menyebabkan banyak masalah, termasuk kemacetan dan gangguan bagi pejalan kaki serta pengendara. Untuk membantu kami menindaklanjuti laporan Anda, mohon berikan informasi lebih lanjut seperti lokasi spesifik, waktu kejadian, dan jenis kendaraan yang terlibat. Informasi ini sangat penting untuk proses investigasi dan penegakan hukum kami."
-        ]
-      },
-      {
-        "tag": "Saluran-Air-Mampet",
-        "patterns": [
-          "Saluran air di dekat rumah saya tersumbat dan tidak lancar",
-          "Ada saluran air yang mampet di jalan utama, menyebabkan genangan air",
-          "Bagaimana cara melaporkan saluran air mampet di lingkungan saya?",
-          "Saya ingin mengadukan saluran air yang tersumbat di sepanjang trotoar ini",
-          "Genangan air di daerah ini disebabkan oleh saluran air yang mampet",
-          "Saluran air di dekat sekolah kami sering mampet saat hujan",
-          "Ada bau tidak sedap dari saluran air yang tersumbat di belakang rumah saya",
-          "Saya melihat sampah menyumbat saluran air di area perumahan ini",
-          "Apakah ada tindakan untuk membersihkan saluran air yang mampet di lingkungan kami?",
-          "Saya khawatir saluran air mampet ini bisa menyebabkan banjir",
-          "Saluran air di taman kota kami perlu diperbaiki karena sering mampet",
-          "Saya ingin melaporkan saluran air yang tersumbat di kantor pos ini",
-          "Saluran air di area parkir pusat perbelanjaan sering kali tersumbat"
-        ],
-        "response": [
-          "Terima kasih telah menghubungi kami. Kami memahami bahwa saluran air yang mampet dapat menyebabkan berbagai masalah seperti genangan air dan bau tidak sedap. Untuk membantu kami menangani masalah ini, mohon berikan informasi lebih lanjut seperti lokasi spesifik, jenis masalah yang terjadi, dan waktu kejadian jika memungkinkan. Informasi ini sangat penting untuk proses pembersihan dan perbaikan saluran air."
-        ]
-      },
-      {
-        "tag": "Penerangan-Jalan-Yang-Kurang",
-        "patterns": [
-          "Penerangan jalan di dekat rumah saya sangat minim pada malam hari",
-          "Bagaimana cara melaporkan masalah penerangan jalan yang kurang?",
-          "Lampu penerangan di persimpangan ini sering mati",
-          "Jalan menuju sekolah kami gelap pada malam hari",
-          "Saya ingin melaporkan lampu penerangan jalan yang tidak berfungsi",
-          "Penerangan jalan di daerah ini kurang memadai saat hujan deras",
-          "Lampu penerangan di taman kota sering kali mati",
-          "Ada bagian jalan tol yang gelap dan berpotensi berbahaya",
-          "Apakah ada rencana untuk memperbaiki penerangan jalan di kota ini?",
-          "Lampu penerangan di kawasan perumahan kami perlu diperbaiki",
-          "Penerangan di sekitar halte bus sangat minim, membuat pengguna merasa tidak aman",
-          "Saya khawatir dengan keamanan jalan karena kurangnya penerangan di jalur sepeda",
-          "Jalan setapak di taman umum kami gelap pada malam hari"
-        ],
-        "response": [
-          "Terima kasih telah menghubungi kami. Kami memahami bahwa penerangan jalan yang kurang dapat menciptakan kondisi yang tidak aman bagi masyarakat. Untuk membantu kami menindaklanjuti laporan Anda, mohon berikan informasi lebih lanjut seperti lokasi spesifik masalah, jenis lampu penerangan yang terlibat, dan waktu kejadian jika memungkinkan. Informasi ini akan membantu kami dalam perencanaan dan perbaikan infrastruktur penerangan jalan."
-        ]
+    {
+      "tag": "administrasi-kelurahan",
+      "patterns": [
+        "membuat kartu keluarga",
+        "membuat KK",
+        "syarat surat domisili",
+        "syarat SKTM",
+        "syarat surat keterangan tidak mampu",
+        "prosedur akta kelahiran",
+        "syarat surat kematian",
+        "akta kelahiran",
+        "mengurus SKTM",
+        "surat tidak mampu",
+        "surat kematian",
+        "biaya surat pindah",
+        "biaya administrasi pindah",
+        "perpanjangan izin UMKM",
+        "surat nikah",
+        "keterangan nikah",
+        "pengajuan KTP-el",
+        "SITU kelurahan",
+        "izin tempat usaha",
+        "izin keramaian",
+        "surat keramaian",
+        "keterangan asal-usul",
+        "keterangan kehilangan"
+      ],
+      "response": [
+        "Terima kasih atas pertanyaan atau keluhan Anda. Untuk informasi lebih lanjut atau bantuan terkait administrasi kelurahan, Anda dapat mengunjungi kantor kelurahan terkait atau menghubungi Customer Service kami melalui tombol yang tersedia. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi yang Anda alami. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
     },
     {
-      "tag": "Nepotisme",
+      "tag": "administrasi-kepolisian",
       "patterns": [
-        "Saya menyaksikan praktik nepotisme yang dilakukan oleh seseorang",
-        "Ada karyawan yang mendapat promosi karena hubungan keluarga",
-        "Manajer kami mempekerjakan anggota keluarganya yang tidak kompeten",
-        "Saya pikir ada favoritisme di departemen kami",
-        "Kolaborator saya mendapat posisi itu hanya karena dia saudara si bos",
-        "Saya curiga ada nepotisme dalam proses perekrutan",
-        "Ada karyawan yang mendapatkan kenaikan gaji karena hubungan keluarga dengan manajemen",
-        "Saya melihat seorang pegawai mendapat perlakuan istimewa karena dia keluarga manajer",
-        "Anggota keluarga atasan kami selalu mendapatkan proyek terbaik",
-        "Saya mendengar bahwa posisi strategis diberikan kepada saudara dari pejabat tinggi",
-        "Saya merasa tidak adil karena promosi diberikan berdasarkan hubungan keluarga",
-        "Ada favoritisme yang mencolok di tim kami karena hubungan pribadi",
-        "Seorang rekan kerja diangkat menjadi supervisor karena dia menantu dari direktur",
-        "Saya melihat adanya penyalahgunaan wewenang untuk menguntungkan keluarga sendiri",
-        "Saya tahu ada karyawan yang dipekerjakan hanya karena dia kerabat manajer"
+        "keluhan pelayanan administrasi kepolisian",
+        "pengaduan proses administrasi SKCK",
+        "masalah administrasi SIM",
+        "keluhan dokumen kehilangan",
+        "informasi prosedur perpanjangan STNK",
+        "tidak transparan pendaftaran pengaduan kejahatan",
+        "sistem pelaporan kehilangan barang bukti rumit",
+        "verifikasi dokumen kecelakaan lalu lintas berbelit",
+        "pengaduan surat pemberitahuan tilang tidak ditanggapi",
+        "administrasi pelaporan kehilangan barang susah",
+        "terpinggirkan dalam administrasi SKCK",
+        "penanganan administrasi SKCK tidak ada kemajuan",
+        "bantuan administrasi perpanjangan SIM",
+        "pelayanan administrasi kepolisian tidak responsif",
+        "prosedur pembuatan laporan kehilangan rumit",
+        "keluhan proses administrasi SIM"
+      ],
+      "response": [
+        "Terima kasih atas pertanyaan atau keluhan Anda. Untuk informasi lebih lanjut atau bantuan terkait administrasi kepolisian, Anda dapat mengunjungi kantor kepolisian terdekat atau menghubungi Customer Service kami melalui tombol yang tersedia. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi yang Anda alami. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
+    },
+    {
+      "tag": "administrasi-kecamatan",
+      "patterns": [
+        "mengurus surat pindah kecamatan",
+        "prosedur pembuatan KTP baru",
+        "bantuan surat kematian",
+        "pelayanan administrasi kependudukan",
+        "prosedur pembuatan paspor",
+        "jadwal pelayanan kecamatan",
+        "mengurus surat tidak mampu",
+        "pengurusan surat tanah",
+        "persiapan surat nikah",
+        "proses surat izin mengemudi",
+        "mengganti alamat di KTP",
+        "syarat surat cerai",
+        "informasi surat waris",
+        "formulir akta jual beli",
+        "prosedur Kartu Keluarga kecamatan",
+        "mengurus perubahan data KK",
+        "keluhan keterlambatan KTP elektronik",
+        "keluhan pelayanan administrasi kependudukan",
+        "mengurus perizinan usaha warga asing",
+        "kesulitan menghubungi kantor kecamatan",
+        "langkah izin mendirikan bangunan",
+        "keluhan prosedur Kartu Identitas Anak"
+      ],
+      "response": [
+        "Terima kasih atas pertanyaan atau keluhan Anda. Untuk informasi lebih lanjut atau bantuan terkait administrasi kecamatan, Anda dapat mengunjungi kantor kecamatan terdekat atau menghubungi Customer Service kami melalui tombol yang tersedia.. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi yang Anda alami. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
+    },    
+    {
+      "tag": "administrasi-rumah-sakit",
+      "patterns": [
+        "keluhan administrasi rumah sakit",
+        "pengaduan proses administrasi rumah sakit",
+        "masalah prosedur administrasi rumah sakit",
+        "keluhan dokumen medis rumah sakit",
+        "pembayaran tagihan rumah sakit rumit",
+        "informasi tarif layanan rumah sakit",
+        "biaya administrasi rumah sakit tidak transparan",
+        "pendaftaran pasien lama",
+        "dokumen medis hilang",
+        "koordinasi departemen administrasi buruk",
+        "bantuan surat rujukan rumah sakit",
+        "keluhan keterlambatan kartu pasien",
+        "administrasi pengaduan kesehatan tidak ada kemajuan",
+        "klaim asuransi rumah sakit rumit",
+        "prosedur pengambilan hasil tes",
+        "verifikasi data pasien berbelit",
+        "aksesibilitas informasi administrasi tidak memadai",
+        "pengaduan administrasi tidak ditanggapi",
+        "sistem pelaporan administrasi tidak sesuai",
+        "administrasi buruk penundaan kasus medis",
+        "penanganan administrasi pelayanan pasien tidak ada kemajuan",
+        "bantuan proses administrasi pengambilan obat",
+        "ketidakprofesionalan pelayanan administrasi kesehatan"
+      ],
+      "response": [
+        "Terima kasih atas pertanyaan atau keluhan Anda. Untuk informasi lebih lanjut atau bantuan terkait administrasi rumah sakit, Anda dapat mengunjungi rumah sakit terdekat atau menghubungi Customer Service kami melalui tombol yang tersedia. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi yang Anda alami. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
+    },    
+    {
+      "tag": "administrasi-kantor-pajak",
+      "patterns": [
+        "keluhan administrasi kantor pajak",
+        "pengaduan proses administrasi kantor pajak",
+        "masalah prosedur administrasi kantor pajak",
+        "keluhan dokumen pajak kantor pajak",
+        "proses pengajuan SPT tahunan lambat",
+        "informasi tarif pajak kantor pajak",
+        "biaya administrasi kantor pajak tidak transparan",
+        "pendaftaran NPWP lama",
+        "dokumen pajak hilang",
+        "tidak dihargai sebagai wajib pajak",
+        "bantuan surat keterangan bebas pajak",
+        "informasi jadwal pelayanan kantor pajak",
+        "keluhan keterlambatan kartu NPWP",
+        "administrasi pengaduan pajak tidak ada kemajuan",
+        "pengajuan restitusi pajak rumit",
+        "prosedur pengambilan hasil pemeriksaan pajak",
+        "verifikasi data wajib pajak berbelit",
+        "aksesibilitas informasi administrasi pajak tidak memadai",
+        "administrasi buruk penundaan kasus pajak",
+        "penanganan administrasi pelayanan pajak tidak ada kemajuan",
+        "bantuan proses administrasi pengurangan pajak",
+        "permohonan pembetulan SPT",
+        "ketidakprofesionalan pelayanan administrasi pajak",
+        "mengurus surat keterangan tidak punya penghasilan"
+      ],
+      "response": [
+        "Terima kasih atas pertanyaan atau keluhan Anda. Untuk informasi lebih lanjut atau bantuan terkait administrasi kantor pajak, Anda dapat mengunjungi kantor pajak terdekat atau menghubungi Customer Service kami melalui tombol yang tersedia. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi yang Anda alami. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
+    },
+    {
+      "tag": "administrasi-sekolah",
+      "patterns": [
+        "keluhan administrasi sekolah",
+        "pengaduan proses administrasi sekolah",
+        "masalah prosedur administrasi sekolah",
+        "keluhan dokumen akademik sekolah",
+        "pendaftaran siswa baru rumit",
+        "biaya administrasi sekolah tidak transparan",
+        "penerimaan rapor lama",
+        "dokumen akademik hilang",
+        "bantuan pindah sekolah anak",
+        "pengajuan beasiswa rumit",
+        "administrasi tidak ada kemajuan",
+        "verifikasi data siswa berbelit",
+        "aksesibilitas informasi administrasi sekolah tidak memadai",
+        "pengaduan administrasi tidak ditanggapi",
+        "administrasi buruk penundaan rapor",
+        "penanganan administrasi tidak ada kemajuan",
+        "bantuan proses administrasi beasiswa",
+        "permohonan perubahan data siswa",
+        "ketidakprofesionalan pelayanan administrasi sekolah",
+        "mengurus surat keterangan pindah sekolah",
+        "informasi pendaftaran ulang sekolah",
+        "pembayaran SPP rumit",
+        "kesulitan administrasi ekstrakurikuler",
+        "transparansi dana BOS tidak ada",
+        "prosedur pengajuan cuti akademik"
+      ],
+      "response": [
+        "Terima kasih atas pertanyaan atau keluhan Anda. Untuk informasi lebih lanjut atau bantuan terkait administrasi sekolah, Anda dapat mengunjungi sekolah terdekat atau menghubungi Customer Service kami melalui tombol yang tersedia. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi yang Anda alami. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
+    },
+    {
+      "tag": "fasilitas-rumah-sakit",
+      "patterns": [
+        "kondisi fasilitas rumah sakit buruk",
+        "peralatan medis rumah sakit rusak",
+        "kebersihan rumah sakit kurang",
+        "layanan rumah sakit tidak memadai",
+        "ruangan rumah sakit kotor",
+        "tempat tidur pasien rumah sakit tidak nyaman",
+        "toilet rumah sakit kotor",
+        "parkir rumah sakit terbatas",
+        "kondisi AC rumah sakit rusak",
+        "makanan di rumah sakit tidak enak",
+        "kurangnya fasilitas untuk pasien di rumah sakit",
+        "akses internet rumah sakit lambat",
+        "ruangan tunggu rumah sakit tidak nyaman",
+        "fasilitas untuk penyandang disabilitas di rumah sakit kurang memadai",
+        "sarana olahraga rumah sakit tidak tersedia",
+        "kondisi kamar mandi rumah sakit buruk",
+        "keamanan rumah sakit kurang baik",
+        "perawatan fasilitas rumah sakit tidak dilakukan dengan baik"
+      ],
+      "response": [
+        "Terima kasih atas pertanyaan atau keluhan Anda mengenai fasilitas rumah sakit. Untuk informasi lebih lanjut atau bantuan terkait fasilitas rumah sakit, Anda dapat menghubungi Customer Service kami melalui tombol yang tersedia. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi yang Anda alami. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
+    },
+    {
+      "tag": "fasilitas-puskesmas",
+      "patterns": [
+        "kondisi fasilitas puskesmas buruk",
+        "peralatan medis puskesmas rusak",
+        "kebersihan puskesmas kurang",
+        "layanan puskesmas tidak memadai",
+        "ruangan puskesmas kotor",
+        "tempat tidur pasien puskesmas tidak nyaman",
+        "toilet puskesmas kotor",
+        "parkir puskesmas terbatas",
+        "kondisi AC puskesmas rusak",
+        "makanan di puskesmas tidak enak",
+        "kurangnya fasilitas untuk pasien di puskesmas",
+        "akses internet puskesmas lambat",
+        "ruangan tunggu puskesmas tidak nyaman",
+        "fasilitas untuk penyandang disabilitas di puskesmas kurang memadai",
+        "sarana olahraga puskesmas tidak tersedia",
+        "kondisi kamar mandi puskesmas buruk",
+        "keamanan puskesmas kurang baik",
+        "perawatan fasilitas puskesmas tidak dilakukan dengan baik"
+      ],
+      "response": [
+        "Terima kasih atas pertanyaan atau keluhan Anda mengenai fasilitas puskesmas. Untuk informasi lebih lanjut atau bantuan terkait fasilitas puskesmas, Anda dapat menghubungi Customer Service kami melalui tombol yang tersedia. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi yang Anda alami. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
+    },        
+    {
+      "tag": "pengaduan-fasilitas-sekolah",
+      "patterns": [
+        "kebersihan sekolah kurang terjaga",
+        "fasilitas olahraga rusak",
+        "buku perpustakaan sekolah usang",
+        "kondisi toilet sekolah buruk",
+        "penerangan area parkir sekolah kurang",
+        "ruang kelas panas karena AC rusak",
+        "keamanan sekolah kurang",
+        "wifi sekolah tidak berfungsi",
+        "transportasi sekolah terlambat",
+        "lapangan olahraga tergenang air",
+        "tidak ada ruang hijau di sekolah",
+        "fasilitas sekolah kurang memadai",
+        "toilet sekolah kotor",
+        "sampah di sekitar sekolah",
+        "sarana olahraga rusak",
+        "AC kelas tidak berfungsi",
+        "ruang kelas kurang pencahayaan",
+        "internet sekolah bermasalah",
+        "bangku kelas rusak",
+        "kondisi bangku tidak aman",
+        "lapangan sekolah tidak terawat",
+        "toilet sekolah butuh perbaikan",
+        "fasilitas sekolah tidak berfungsi",
+        "lampu mati di sekolah",
+        "kondisi toilet tidak memadai",
+        "alat olahraga rusak",
+        "ruang kelas tidak memadai",
+        "alat olahraga butuh penggantian",
+        "ruang kelas bocor",
+        "sarana olahraga tidak mencukupi"
+      ],
+      "response": [
+        "Terima kasih atas pertanyaan atau keluhan Anda mengenai fasilitas di sekolah. Untuk informasi lebih lanjut atau bantuan terkait fasilitas sekolah, Anda dapat menghubungi Customer Service kami melalui tombol yang tersedia. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi yang Anda alami. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
+    },
+    {
+      "tag": "pengaduan-akses-pendidikan",
+      "patterns": [
+        "siswa desa kesulitan mencapai sekolah",
+        "anak harus berjalan jauh ke sekolah",
+        "sekolah jauh dari rumah",
+        "perjalanan ke sekolah lama",
+        "tidak ada sekolah dekat rumah",
+        "jarak sekolah jauh dari desa",
+        "anak harus menyeberangi sungai ke sekolah",
+        "orang tua khawatir jarak sekolah jauh",
+        "siswa terlambat karena jarak sekolah",
+        "tidak ada transportasi ke sekolah",
+        "jarak sekolah membuat siswa lelah",
+        "sekolah terpencil sulit dijangkau",
+        "siswa tidak sekolah karena jarak jauh",
+        "perjalanan ke sekolah berjam-jam",
+        "sekolah jauh sulit dijangkau",
+        "tidak ada kendaraan umum ke sekolah",
+        "anak harus bangun pagi untuk sekolah",
+        "solusi transportasi siswa jauh",
+        "jarak sekolah menyebabkan absen",
+        "anak tidak bisa sekolah karena jarak"
+      ],
+      "response": [
+        "Terima kasih atas pertanyaan atau keluhan Anda mengenai akses pendidikan. Untuk informasi lebih lanjut atau bantuan terkait akses pendidikan, Anda dapat menghubungi Customer Service kami melalui tombol yang tersedia. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi yang Anda alami. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
+    },
+    {
+      "tag": "pengaduan-kurikulum-pendidikan",
+      "patterns": [
+        "pembaruan kurikulum pendidikan",
+        "perubahan kurikulum sekolah",
+        "pembaruan kurikulum pendidikan tahun ini",
+        "materi baru di kurikulum sekolah",
+        "informasi pembaruan kurikulum pendidikan",
+        "perubahan struktur kurikulum sekolah",
+        "perubahan kurikulum pendidikan dasar",
+        "kurikulum pendidikan keterampilan teknologi",
+        "penambahan kurikulum matematika",
+        "kurikulum pendidikan karakter",
+        "pembaruan kurikulum pendidikan tinggi",
+        "perubahan kurikulum sains dan penelitian",
+        "kurikulum inklusi siswa berkebutuhan khusus",
+        "kurikulum pendidikan lingkungan",
+        "kurikulum keterampilan bahasa dan sastra",
+        "kurikulum keterampilan sosial siswa",
+        "kurikulum keberagaman budaya",
+        "kurikulum teknologi baru",
+        "pembelajaran berbasis proyek",
+        "literasi media dalam kurikulum pendidikan",
+        "keterampilan kehidupan sehari-hari dalam kurikulum"
+      ],
+      "response": [
+        "Terima kasih atas pertanyaan atau keluhan Anda mengenai kurikulum pendidikan. Untuk informasi lebih lanjut atau bantuan terkait kurikulum pendidikan, Anda dapat menghubungi Customer Service kami melalui tombol yang tersedia. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi yang Anda alami. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
+    },
+    {
+      "tag": "pengaduan-kedisiplinan-sekolah",
+      "patterns": [
+        "anak sekolah tidak disiplin",
+        "anak sekolah tawuran",
+        "keluhan pelanggaran tata tertib sekolah",
+        "laporan siswa pelanggaran disiplin",
+        "laporan ketidakdisiplinan siswa",
+        "saluran pengaduan kedisiplinan sekolah",
+        "laporan ketidakpatuhan aturan sekolah",
+        "laporan siswa sering terlambat",
+        "keluhan perilaku tidak pantas siswa",
+        "prosedur pengaduan pelanggaran disiplin",
+        "tindakan tegas masalah kedisiplinan siswa",
+        "laporan ketidakpatuhan aturan pakaian",
+        "laporan siswa sering bolos",
+        "saluran pengaduan masalah kedisiplinan",
+        "laporan ketidakpatuhan aturan gadget",
+        "keluhan pelanggaran disiplin oleh guru",
+        "keluhan tindakan bullying di sekolah",
+        "laporan kecurangan ujian siswa",
+        "langkah preventif masalah disiplin siswa",
+        "laporan ketidakpatuhan aturan absensi",
+        "kenakalan remaja di lingkungan sekolah",
+        "pengaduan masalah kedisiplinan sekolah",
+        "ketidakpatuhan aturan parkir sekolah",
+        "ketidakpatuhan jadwal pelajaran",
+        "penggunaan bahasa kasar siswa",
+        "laporan kerusuhan di kantin sekolah",
+        "langkah penegakan hukum pelanggaran disiplin"
+      ],
+      "response": [
+        "Terima kasih atas pengaduan Anda terkait masalah kedisiplinan di sekolah. Untuk informasi lebih lanjut atau bantuan terkait kedisiplinan sekolah, Anda dapat menghubungi Customer Service kami melalui tombol yang tersedia. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi yang Anda alami. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
+    },
+    {
+      "tag": "pengaduan-kampus",
+      "patterns": [
+        "keluhan fasilitas kampus",
+        "ketidaksesuaian aturan kampus",
+        "keluhan pelayanan kampus",
+        "kejadian meresahkan di kampus",
+        "kurangnya sarana prasarana kampus",
+        "keamanan gangguan di kampus",
+        "ketidakadilan atau pelecehan kampus",
+        "gangguan lingkungan polusi kampus",
+        "kejadian tidak etis di kampus",
+        "penyalahgunaan pencemaran lingkungan kampus",
+        "kekurangan ruang kelas atau laboratorium di kampus",
+        "fasilitas olahraga tidak memadai kampus",
+        "layanan internet wifi kampus lambat",
+        "kekurangan fasilitas kesehatan kampus",
+        "kecelakaan cedera di kampus",
+        "perilaku diskriminatif di kampus",
+        "parkir transportasi kampus kurang memadai",
+        "kebisingan gangguan suara kampus",
+        "tindakan vandalisme perusakan properti kampus",
+        "kekurangan fasilitas penyandang disabilitas kampus",
+        "kebersihan sanitasi kampus kurang",
+        "gangguan kegiatan akademik kampus",
+        "kekurangan fasilitas makanan kampus",
+        "kejadian pencurian kehilangan barang kampus",
+        "kehadiran hewan liar serangga kampus",
+        "kebakaran keamanan kebakaran kampus",
+        "kebijakan kebersihan daur ulang kampus"
+      ],
+      "response": [
+        "Terima kasih atas pertanyaan atau keluhan Anda mengenai kampus. Untuk informasi lebih lanjut atau bantuan terkait masalah kampus, Anda dapat menghubungi Customer Service kami melalui tombol yang tersedia. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi yang Anda alami. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
+    },    
+    {
+      "tag": "pengaduan-teknologi-pendidikan",
+      "patterns": [
+        "laporan masalah teknis e-learning kampus",
+        "keluhan sistem manajemen pembelajaran bermasalah",
+        "kendala menggunakan aplikasi pembelajaran",
+        "laporan masalah perangkat lunak pembelajaran online",
+        "kesulitan akses sumber daya digital pembelajaran",
+        "laporan masalah kuliah online tutorial",
+        "sistem kolaborasi online kelas tidak berfungsi",
+        "kesulitan akses webinar kuliah online",
+        "saluran pengaduan masalah teknis teknologi pendidikan",
+        "laporan kendala platform pembelajaran interaktif",
+        "keluhan integrasi sistem manajemen pembelajaran",
+        "masalah integrasi kalender akademik platform pembelajaran",
+        "laporan gangguan sistem penyimpanan file kampus",
+        "laporan kesalahan tata letak platform pembelajaran",
+        "masalah sistem pemberian tugas ujian online",
+        "laporan kesalahan akses perpustakaan digital kampus",
+        "keluhan akses materi pembelajaran online",
+        "kesulitan akses siswa penyandang disabilitas",
+        "laporan kehilangan rusaknya perangkat kampus",
+        "gangguan koneksi internet kampus",
+        "kesalahan pembaruan platform pembelajaran",
+        "keluhan keamanan data pribadi platform pembelajaran",
+        "masalah kompatibilitas perangkat pembelajaran siswa",
+        "laporan kesalahan materi pembelajaran online",
+        "kesalahan integrasi platform pembelajaran administrasi",
+        "keluhan lambatnya dukungan teknis IT kampus",
+        "masalah instruksi panduan pengguna platform pembelajaran"
+      ],
+      "response": [
+        "Terima kasih atas pertanyaan atau keluhan Anda mengenai teknologi pendidikan. Untuk informasi lebih lanjut atau bantuan terkait masalah teknologi pendidikan, Anda dapat menghubungi Customer Service kami melalui tombol yang tersedia. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi yang Anda alami. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
+    },
+    {
+      "tag": "pengaduan-jalan-rusak",
+      "patterns": [
+        "jalan rusak depan rumah",
+        "jalan berlubang dekat sekolah",
+        "aspal jalan mengelupas",
+        "jalan tidak rata menuju pasar",
+        "kerusakan jalan raya",
+        "jalan utama retak",
+        "lubang besar di jalan",
+        "jalan penghubung desa rusak",
+        "jalan layang retak perlu perbaikan",
+        "jalan menuju rumah sakit berlubang",
+        "jalan provinsi tidak diperbaiki",
+        "jalan menuju stasiun rusak berat",
+        "aspal kompleks pecah",
+        "jalan beton depan toko retak",
+        "jalan rusak setelah hujan",
+        "jalan akses perkebunan rusak",
+        "jalan menuju wisata buruk",
+        "jalan depan kampus buruk",
+        "jalan berbahaya banyak lubang",
+        "jalan perumahan memprihatinkan"
+      ],
+      "response": [
+        "Terima kasih atas pertanyaan atau keluhan Anda mengenai jalan rusak. Untuk informasi lebih lanjut atau bantuan terkait masalah jalan rusak, Anda dapat menghubungi Customer Service kami melalui tombol yang tersedia. Jika Anda ingin membuat laporan pengaduan, mohon sertakan deskripsi detail seperti alamat, foto, dan informasi lebih lanjut mengenai kondisi jalan yang rusak. Kami akan berusaha membantu Anda secepat mungkin. Terima kasih."
+      ]
+    },    
+    {
+      "tag": "pengaduan-kebakaran",
+      "patterns": [
+        "kebakaran gedung sebelah",
+        "rumah tetangga terbakar",
+        "kebakaran pabrik besar",
+        "api menjalar rumah warga",
+        "kebun belakang rumah terbakar",
+        "asap tebal kebakaran",
+        "kebakaran pasar pedagang panik",
+        "kebakaran hutan mendekat",
+        "kebakaran area perkantoran",
+        "laporan kebakaran perumahan",
+        "toko terbakar butuh bantuan",
+        "kebakaran sekolah murid dievakuasi",
+        "gudang barang terbakar asap hitam",
+        "kebakaran lahan kosong",
+        "rumah di pinggir jalan terbakar",
+        "kebakaran kawasan industri",
+        "kebakaran apartemen orang terjebak",
+        "kebakaran restoran dapur",
+        "kebakaran stasiun bensin darurat",
+        "kebakaran taman kota"
+      ],
+      "response": [
+        "Mohon maaf atas kejadian kebakaran yang Anda laporkan. Untuk penanganan lebih lanjut, silakan hubungi nomor darurat kebakaran atau lakukan laporan pengaduan dengan menyertakan lokasi, waktu kejadian, dan foto jika memungkinkan. Kami akan segera mengirim bantuan. Terima kasih atas laporan Anda."
+      ]
+    },    
+    {
+      "tag": "kemacetan-lalu-lintas",
+      "patterns": [
+        "jalan utama kota selalu macet pagi",
+        "kemacetan parah persimpangan dekat kantor",
+        "lalu lintas padat sekitar sekolah sore",
+        "laporan kemacetan lalu lintas",
+        "kemacetan jalan tol",
+        "pemerintah atasi kemacetan jalan utama",
+        "kemacetan daerah semakin parah",
+        "lampu lalu lintas mati sebabkan kemacetan",
+        "pekerjaan jalan sebabkan kemacetan panjang",
+        "kendaraan parkir sembarangan sebabkan kemacetan",
+        "rencana kurangi kemacetan pusat kota",
+        "kemacetan dekat stasiun kereta",
+        "kemacetan parah setiap lewat jalan ini",
+        "jalan alternatif juga macet",
+        "pengaturan lalu lintas buruk kemacetan panjang"
+      ],
+      "response": [
+        "Terima kasih telah menghubungi kami. Kami memahami bahwa kemacetan lalu lintas dapat sangat mengganggu aktivitas sehari-hari. Untuk membantu kami menangani masalah ini, mohon berikan informasi lebih lanjut seperti lokasi spesifik, waktu terjadinya kemacetan, dan faktor-faktor yang Anda anggap menyebabkan kemacetan. Informasi ini sangat penting untuk proses investigasi dan perencanaan solusi kami."
+      ]
+    },    
+    {
+      "tag": "parkir-liar",
+      "patterns": [
+        "kendaraan parkir sembarangan jalan",
+        "kendaraan parkir trotoar menghalangi pejalan kaki",
+        "parkir liar depan toko",
+        "laporan parkir liar lingkungan",
+        "mobil parkir sembarangan malam hari",
+        "parkir liar sekitar sekolah",
+        "kendaraan parkir tidak seharusnya",
+        "laporan parkir liar depan rumah",
+        "parkir jalan sempit sebabkan kemacetan",
+        "tindakan parkir liar perumahan",
+        "kendaraan parkir liar halangi akses",
+        "mobil parkir sembarangan jalur sepeda",
+        "parkir liar ganggu operasi bisnis",
+        "kendaraan parkir zona larangan",
+        "parkir liar depan gedung"
+      ],
+      "response": [
+        "Terima kasih telah menghubungi kami. Kami mengerti bahwa parkir liar dapat menyebabkan banyak masalah, termasuk kemacetan dan gangguan bagi pejalan kaki serta pengendara. Untuk membantu kami menindaklanjuti laporan Anda, mohon berikan informasi lebih lanjut seperti lokasi spesifik, waktu kejadian, dan jenis kendaraan yang terlibat. Informasi ini sangat penting untuk proses investigasi dan penegakan hukum kami."
+      ]
+    },    
+    {
+      "tag": "saluran-air-mampet",
+      "patterns": [
+        "saluran air tersumbat tidak lancar",
+        "saluran air mampet jalan utama",
+        "laporan saluran air mampet lingkungan",
+        "saluran air tersumbat trotoar",
+        "genangan air sebab saluran mampet",
+        "saluran air sekolah mampet saat hujan",
+        "bau tidak sedap saluran air tersumbat",
+        "sampah sumbat saluran air perumahan",
+        "tindakan saluran air mampet lingkungan",
+        "kekhawatiran banjir saluran mampet",
+        "perbaikan saluran air taman kota",
+        "laporan saluran air tersumbat kantor pos",
+        "saluran air parkir pusat perbelanjaan tersumbat"
+      ],
+      "response": [
+        "Terima kasih telah menghubungi kami. Kami memahami bahwa saluran air yang mampet dapat menyebabkan berbagai masalah seperti genangan air dan bau tidak sedap. Untuk membantu kami menangani masalah ini, mohon berikan informasi lebih lanjut seperti lokasi spesifik, jenis masalah yang terjadi, dan waktu kejadian jika memungkinkan. Informasi ini sangat penting untuk proses pembersihan dan perbaikan saluran air."
+      ]
+    },    
+    {
+      "tag": "penerangan-jalan-yang-kurang",
+      "patterns": [
+        "penerangan jalan minim malam hari",
+        "laporan masalah penerangan jalan kurang",
+        "lampu penerangan persimpangan sering mati",
+        "jalan menuju sekolah gelap malam",
+        "laporan lampu penerangan jalan tidak berfungsi",
+        "penerangan jalan kurang memadai hujan deras",
+        "lampu penerangan taman kota sering mati",
+        "jalan tol gelap berbahaya",
+        "rencana perbaikan penerangan jalan kota",
+        "lampu penerangan perumahan perlu diperbaiki",
+        "penerangan halte bus minim",
+        "keamanan jalan kurang penerangan jalur sepeda",
+        "jalan setapak taman gelap malam hari"
+      ],
+      "response": [
+        "Terima kasih telah menghubungi kami. Kami memahami bahwa penerangan jalan yang kurang dapat menciptakan kondisi yang tidak aman bagi masyarakat. Untuk membantu kami menindaklanjuti laporan Anda, mohon berikan informasi lebih lanjut seperti lokasi spesifik masalah, jenis lampu penerangan yang terlibat, dan waktu kejadian jika memungkinkan. Informasi ini akan membantu kami dalam perencanaan dan perbaikan infrastruktur penerangan jalan."
+      ]
+    },    
+    {
+      "tag": "nepotisme",
+      "patterns": [
+        "praktik nepotisme",
+        "karyawan promosi hubungan keluarga",
+        "manajer mempekerjakan keluarga tidak kompeten",
+        "favoritisme departemen",
+        "kolaborator dapat posisi saudara bos",
+        "nepotisme proses perekrutan",
+        "karyawan kenaikan gaji hubungan keluarga",
+        "pegawai perlakuan istimewa keluarga manajer",
+        "keluarga atasan dapat proyek terbaik",
+        "posisi strategis saudara pejabat tinggi",
+        "promosi berdasarkan hubungan keluarga",
+        "favoritisme tim hubungan pribadi",
+        "rekan kerja supervisor menantu direktur",
+        "penyalahgunaan wewenang untuk keluarga",
+        "karyawan dipekerjakan kerabat manajer"
       ],
       "response": [
         "Terima kasih telah menghubungi kami. Untuk membantu kami dalam menyelidiki kasus ini, bisakah Anda memberikan rincian lebih lanjut? Informasi seperti waktu dan tempat kejadian, nama dan posisi orang yang terlibat, serta bagaimana Anda mengetahui tentang praktik tersebut akan sangat membantu."
       ]
-    },
-  {
-      "tag": "Korupsi-dalam-Sistem-Peradilan",
+    },    
+    {
+      "tag": "korupsi-dalam-sistem-peradilan",
       "patterns": [
-        "Saya percaya ada korupsi di pengadilan",
-        "Hakim tampaknya menerima suap untuk memenangkan kasus",
-        "Ada bukti manipulasi kasus di pengadilan",
-        "Saya ingin melaporkan korupsi yang saya lihat di ruang sidang",
-        "Bagaimana cara melaporkan hakim yang korup?",
-        "Saya melihat pengacara memberi hadiah mahal kepada hakim",
-        "Ada jaksa yang meminta uang untuk menutup kasus",
-        "Saya mendengar ada suap untuk mempengaruhi putusan pengadilan",
-        "Ada bukti bahwa staf pengadilan memanipulasi dokumen untuk keuntungan pribadi",
-        "Saya mencurigai adanya pembayaran ilegal kepada petugas pengadilan",
-        "Seorang saksi memberi tahu saya tentang hakim yang menerima suap",
-        "Saya mengetahui adanya pejabat pengadilan yang bekerja sama dengan kriminal",
-        "Ada laporan bahwa kasus tertentu dipercepat atau diperlambat dengan suap",
-        "Saya melihat adanya penyalahgunaan wewenang oleh petugas peradilan",
-        "Saya menduga ada kolusi antara hakim dan pengacara dalam penanganan kasus",
-        "Saya melihat hakim menerima uang dari terdakwa",
-        "Ada pengacara yang sering mendapat perlakuan istimewa dari hakim",
-        "Saya mencurigai adanya permainan uang di balik keputusan pengadilan",
-        "Ada laporan tentang pejabat pengadilan yang hidup mewah tanpa alasan jelas",
-        "Saya mendengar jaksa menekan saksi untuk mengubah kesaksian mereka"
+        "korupsi di pengadilan",
+        "hakim menerima suap",
+        "bukti manipulasi kasus pengadilan",
+        "laporan korupsi ruang sidang",
+        "laporan hakim korup",
+        "pengacara beri hadiah hakim",
+        "jaksa minta uang tutup kasus",
+        "suap mempengaruhi putusan pengadilan",
+        "bukti staf pengadilan manipulasi dokumen",
+        "pembayaran ilegal petugas pengadilan",
+        "saksi hakim menerima suap",
+        "pejabat pengadilan bekerja sama kriminal",
+        "kasus dipercepat diperlambat dengan suap",
+        "penyalahgunaan wewenang petugas peradilan",
+        "kolusi hakim pengacara penanganan kasus"
       ],
       "response": [
         "Terima kasih telah menghubungi kami. Untuk melaporkan dugaan korupsi dalam sistem peradilan, mohon sertakan informasi detail seperti nama, tanggal, lokasi, dan deskripsi spesifik dari tindakan yang Anda curigai. Informasi ini sangat penting untuk proses investigasi kami."
       ]
     },
-  {
-      "tag": "Korupsi-dalam-Sistem-Peradilan",
+    {
+      "tag": "kleptokrasi",
       "patterns": [
-        "Saya percaya ada korupsi di pengadilan",
-        "Hakim tampaknya menerima suap untuk memenangkan kasus",
-        "Ada bukti manipulasi kasus di pengadilan",
-        "Saya ingin melaporkan korupsi yang saya lihat di ruang sidang",
-        "Bagaimana cara melaporkan hakim yang korup?",
-        "Saya melihat pengacara memberi hadiah mahal kepada hakim",
-        "Ada jaksa yang meminta uang untuk menutup kasus",
-        "Saya mendengar ada suap untuk mempengaruhi putusan pengadilan",
-        "Ada bukti bahwa staf pengadilan memanipulasi dokumen untuk keuntungan pribadi",
-        "Saya mencurigai adanya pembayaran ilegal kepada petugas pengadilan",
-        "Seorang saksi memberi tahu saya tentang hakim yang menerima suap",
-        "Saya mengetahui adanya pejabat pengadilan yang bekerja sama dengan kriminal",
-        "Ada laporan bahwa kasus tertentu dipercepat atau diperlambat dengan suap",
-        "Saya melihat adanya penyalahgunaan wewenang oleh petugas peradilan",
-        "Saya menduga ada kolusi antara hakim dan pengacara dalam penanganan kasus"
-      ],
-      "response": [
-        "Terima kasih telah menghubungi kami. Untuk melaporkan dugaan korupsi dalam sistem peradilan, mohon sertakan informasi detail seperti nama, tanggal, lokasi, dan deskripsi spesifik dari tindakan yang Anda curigai. Informasi ini sangat penting untuk proses investigasi kami."
-      ]
-    },          
-  {
-      "tag": "Kleptokrasi",
-      "patterns": [
-        "Saya melihat tindakan korupsi yang melibatkan pejabat tinggi negara",
-        "Ada bukti bahwa pemimpin negara memperkaya diri sendiri dengan dana publik",
-        "Bagaimana cara melaporkan praktik kleptokrasi?",
-        "Saya ingin mengungkap kasus kleptokrasi yang terjadi di pemerintahan",
-        "Saya mengetahui ada pejabat yang menggunakan anggaran negara untuk kepentingan pribadi",
-        "Ada indikasi bahwa dana bantuan sosial disalahgunakan oleh pejabat tinggi",
-        "Saya curiga ada penggelapan dana publik oleh pemimpin daerah",
-        "Pejabat negara membeli properti mewah dengan uang yang tidak jelas asalnya",
-        "Saya mendengar laporan tentang penyalahgunaan dana pembangunan oleh pemerintah",
-        "Ada bukti kuat bahwa pejabat menggunakan kekuasaan untuk mengambil alih aset negara",
-        "Saya melihat laporan keuangan yang mencurigakan terkait pengeluaran pemerintah",
-        "Ada laporan bahwa proyek infrastruktur digunakan sebagai kedok untuk korupsi",
-        "Pejabat tinggi diduga menyalurkan dana publik ke rekening pribadi",
-        "Saya mengetahui bahwa anggaran negara dialihkan untuk kepentingan pribadi pejabat",
-        "Ada informasi bahwa pemimpin menggunakan dana negara untuk investasi pribadi"
+        "korupsi pejabat tinggi negara",
+        "pemimpin negara memperkaya diri dengan dana publik",
+        "laporan praktik kleptokrasi",
+        "kasus kleptokrasi di pemerintahan",
+        "pejabat gunakan anggaran negara untuk kepentingan pribadi",
+        "dana bantuan sosial disalahgunakan pejabat tinggi",
+        "penggelapan dana publik pemimpin daerah",
+        "pejabat beli properti mewah uang tidak jelas asalnya",
+        "laporan penyalahgunaan dana pembangunan pemerintah",
+        "bukti pejabat ambil alih aset negara",
+        "laporan keuangan mencurigakan pengeluaran pemerintah",
+        "proyek infrastruktur kedok korupsi",
+        "pejabat salurkan dana publik ke rekening pribadi",
+        "anggaran negara dialihkan kepentingan pribadi pejabat",
+        "pemimpin gunakan dana negara untuk investasi pribadi"
       ],
       "response": [
         "Terima kasih telah menghubungi kami. Kleptokrasi adalah praktik di mana pejabat negara memperkaya diri sendiri dengan mencuri dana publik atau aset negara. Jika Anda memiliki bukti atau informasi lebih lanjut tentang kasus kleptokrasi, kami sangat menghargai kontribusi Anda dalam memerangi korupsi. Mohon berikan rincian lebih lanjut tentang situasi yang Anda amati, termasuk nama, waktu, tempat kejadian, dan deskripsi tindakan yang mencurigakan. Informasi ini akan membantu kami dalam penyelidikan lebih lanjut."
       ]
-    },          
+    },    
     {
-      "tag": "Suap",
+      "tag": "suap",
       "patterns": [
-        "Saya diminta memberikan uang agar dokumen saya diproses lebih cepat",
-        "Ada orang yang menawarkan uang untuk mendapatkan kontrak pemerintah",
-        "Saya tahu seseorang yang memberi hadiah kepada pejabat untuk mendapat izin usaha",
-        "Bagaimana cara melaporkan praktik suap yang saya saksikan?",
-        "Pejabat ini selalu meminta 'uang damai' untuk setiap transaksi",
-        "Apa langkah-langkah yang harus diambil ketika seseorang menawarkan suap kepada saya?",
-        "Saya mendengar bahwa suap adalah praktek umum di departemen ini, bagaimana cara menghentikannya?",
-        "Saya ditawari uang oleh seseorang untuk memanipulasi hasil tender.",
-        "Ada pejabat yang meminta 'uang pelicin' untuk mempercepat izin proyek saya.",
-        "Saya melihat seseorang memberikan hadiah mahal kepada pejabat untuk memenangkan kontrak.",
-        "Ada kolega yang memberi uang kepada petugas untuk mendapatkan persetujuan cepat.",
-        "Seorang pegawai negeri meminta suap agar proses administrasi saya dipercepat.",
-        "Saya mendengar kabar ada orang yang memberikan uang ke pejabat untuk mendapatkan proyek.",
-        "Teman saya diminta memberikan sejumlah uang untuk mendapatkan izin operasi.",
-        "Saya ditawari uang tunai untuk menyetujui proposal yang tidak memenuhi syarat.",
-        "Saya mengetahui seseorang yang memberi sogokan agar pemeriksaan pajak diperlonggar."
+        "uang untuk dokumen diproses cepat",
+        "uang untuk kontrak pemerintah",
+        "hadiah pejabat untuk izin usaha",
+        "laporan praktik suap",
+        "pejabat minta uang damai transaksi",
+        "tindakan saat ditawari suap",
+        "suap umum di departemen ini",
+        "uang untuk memanipulasi hasil tender",
+        "uang pelicin untuk izin proyek",
+        "hadiah mahal pejabat untuk kontrak",
+        "uang persetujuan cepat proyek",
+        "uang untuk administrasi dipercepat",
+        "uang ke pejabat untuk proyek",
+        "uang untuk izin operasi",
+        "uang tunai untuk menyetujui proposal",
+        "suap untuk pemeriksaan pajak diperlonggar"
       ],
       "response": [
         "Terima kasih telah menghubungi kami. Suap adalah tindakan ilegal yang merugikan integritas sistem. Untuk melaporkan praktik suap, mohon sertakan informasi detail seperti nama, waktu, dan tempat kejadian, serta deskripsi spesifik dari tindakan yang Anda curigai. Informasi ini sangat penting untuk proses investigasi kami."
       ]
-    },
+    },    
     {
-      "tag": "Gratifikasi-Ilegal",
+      "tag": "gratifikasi-ilegal",
       "patterns": [
-        "Saya diberi hadiah oleh klien setelah menyelesaikan proyek",
-        "Seorang kontraktor menawarkan liburan gratis sebagai imbalan atas persetujuan kontrak",
-        "Pejabat pemerintah menerima hadiah mahal dari pihak yang memiliki kepentingan",
-        "Bagaimana cara melaporkan gratifikasi yang tidak sesuai dengan aturan?",
-        "Saya curiga ada gratifikasi ilegal di departemen kami",
-        "Bagaimana cara melaporkan seseorang yang menawarkan gratifikasi kepada saya?",
-        "Saya diberi hadiah oleh klien setelah menyelesaikan proyek",
-        "Seorang kontraktor menawarkan liburan gratis sebagai imbalan atas persetujuan kontrak",
-        "Pejabat pemerintah menerima hadiah mahal dari pihak yang memiliki kepentingan",
-        "Bagaimana cara melaporkan gratifikasi yang tidak sesuai dengan aturan?",
-        "Saya curiga ada gratifikasi ilegal di departemen kami",
-        "Saya ditawari saham oleh mitra bisnis sebagai ucapan terima kasih",
-        "Ada seorang pemasok yang memberikan mobil baru kepada pejabat perusahaan",
-        "Seorang kolega menerima perangkat elektronik mahal setelah menyetujui proyek",
-        "Saya melihat bos menerima voucher belanja dari vendor",
-        "Teman saya mendapatkan hadiah uang tunai dari klien setelah menandatangani kontrak",
-        "Saya diberi tiket konser oleh mitra kerja setelah kesepakatan bisnis",
-        "Saya mengetahui ada pegawai yang menerima jam tangan mewah dari pelanggan",
-        "Saya mendengar ada pegawai yang menerima hadiah perjalanan ke luar negeri",
-        "Ada laporan bahwa pejabat menerima perhiasan dari pengusaha yang terkait dengan proyek",
-        "Saya mencurigai adanya penerimaan hadiah berupa diskon besar pada pembelian pribadi oleh pegawai"
+        "hadiah klien setelah proyek",
+        "liburan gratis untuk persetujuan kontrak",
+        "pejabat hadiah mahal dari pihak berkepentingan",
+        "laporan gratifikasi ilegal",
+        "gratifikasi ilegal di departemen",
+        "laporan gratifikasi yang ditawarkan",
+        "saham dari mitra bisnis sebagai ucapan terima kasih",
+        "mobil baru dari pemasok kepada pejabat",
+        "hadiah perangkat elektronik setelah proyek",
+        "bos menerima voucher belanja dari vendor",
+        "hadiah uang tunai dari klien setelah kontrak",
+        "tiket konser dari mitra kerja",
+        "pegawai jam tangan mewah dari pelanggan",
+        "pegawai hadiah perjalanan luar negeri",
+        "pejabat menerima perhiasan dari pengusaha",
+        "pegawai hadiah diskon besar pembelian pribadi"
       ],
       "response": [
         "Terima kasih telah menghubungi kami. Gratifikasi ilegal adalah penerimaan hadiah atau manfaat yang tidak sesuai dengan peraturan atau hukum. Untuk melaporkan gratifikasi ilegal, mohon sertakan informasi detail seperti nama, waktu, dan tempat kejadian, serta deskripsi spesifik dari tindakan yang Anda curigai. Informasi ini sangat penting untuk proses investigasi kami."
       ]
-    },
+    },    
     {
-      "tag": "Konflik-Kepentingan",
+      "tag": "penipuan",
       "patterns": [
-        "Saya melihat ada konflik kepentingan di lingkungan kerja saya",
-        "Pejabat di perusahaan kami terlibat dalam praktik yang merugikan perusahaan",
-        "Bagaimana cara melaporkan konflik kepentingan?",
-        "Saya ingin mengungkap kasus konflik kepentingan yang terjadi di organisasi kami",
-        "Ada dugaan konflik kepentingan yang melibatkan manajer saya, apa yang harus saya lakukan?",
-        "Saya percaya bahwa ada konflik kepentingan yang mempengaruhi keputusan pengadaan barang dan jasa",
-        "Saya mengetahui seorang kolega yang memiliki kepentingan pribadi dalam keputusan perusahaan",
-        "Ada pejabat yang memutuskan kontrak dengan perusahaan milik kerabatnya",
-        "Saya menduga ada konflik kepentingan dalam pemilihan vendor baru",
-        "Seorang atasan memberikan proyek kepada perusahaan milik teman dekatnya",
-        "Saya mendengar kabar tentang konflik kepentingan dalam proses promosi pegawai",
-        "Teman saya terlibat dalam proyek yang memiliki hubungan bisnis dengan keluarganya",
-        "Saya melihat ada kepentingan pribadi yang mempengaruhi keputusan anggaran departemen",
-        "Ada laporan bahwa seorang pejabat menggunakan posisinya untuk keuntungan pribadi",
-        "Saya curiga ada konflik kepentingan dalam alokasi dana proyek"
-      ],
-      "response": [
-        "Terima kasih telah menghubungi kami. Konflik kepentingan adalah situasi di mana individu memiliki kepentingan pribadi yang dapat mempengaruhi keputusan profesional mereka. Untuk melaporkan dugaan konflik kepentingan, mohon sertakan informasi detail seperti nama, waktu, dan tempat kejadian, serta deskripsi spesifik dari tindakan yang Anda curigai. Informasi ini akan membantu kami dalam proses investigasi lebih lanjut."
-      ]
-    },
-    {
-      "tag": "Penipuan",
-      "patterns": [
-        "Saya ditipu dalam transaksi online",
-        "Ada yang menjual produk palsu kepada saya",
-        "Bagaimana cara melaporkan penipuan?",
-        "Saya menerima email yang mencurigakan meminta informasi pribadi",
-        "Saya menjadi korban penipuan investasi",
-        "Seseorang menghubungi saya dan meminta uang dengan janji palsu",
-        "Bagaimana cara menghindari penipuan online?",
-        "Saya membeli produk tetapi tidak pernah menerimanya",
-        "Ada yang menawarkan pekerjaan palsu kepada saya",
-        "Saya tahu seseorang yang memalsukan dokumen untuk mendapatkan uang"
+        "penipuan transaksi online",
+        "produk palsu dijual kepada saya",
+        "laporan penipuan",
+        "email mencurigakan minta informasi pribadi",
+        "penipuan investasi",
+        "seseorang minta uang janji palsu",
+        "hindari penipuan online",
+        "beli produk tidak pernah terima",
+        "pekerjaan palsu ditawarkan",
+        "memalsukan dokumen untuk uang"
       ],
       "response": [
         "Penipuan adalah kejahatan serius. Untuk melaporkan penipuan, mohon berikan detail kejadian seperti nama pelaku, waktu, dan deskripsi penipuan. Informasi ini akan membantu kami dalam proses investigasi."
       ]
-    },
+    },    
     {
-      "tag": "Pemerasan",
+      "tag": "pemerasan",
       "patterns": [
-        "Saya diperas oleh seseorang",
-        "Ada yang mengancam saya untuk memberikan uang",
-        "Bagaimana cara melaporkan pemerasan?",
-        "Seseorang meminta uang dengan ancaman akan menyebarkan informasi pribadi",
-        "Saya dipaksa memberikan uang untuk menghindari ancaman",
-        "Ada yang mengancam saya untuk memberikan akses ke akun bank saya",
-        "Saya tahu seseorang yang menjadi korban pemerasan",
-        "Bagaimana cara menghindari pemerasan?",
-        "Saya diancam oleh seseorang untuk mendapatkan uang",
-        "Ada yang meminta uang dengan ancaman fisik"
+        "diperas seseorang",
+        "ancaman untuk uang",
+        "laporan pemerasan",
+        "uang dengan ancaman sebar informasi pribadi",
+        "dipaksa beri uang untuk hindari ancaman",
+        "ancaman beri akses akun bank",
+        "seseorang korban pemerasan",
+        "hindari pemerasan",
+        "ancaman untuk uang",
+        "uang dengan ancaman fisik"
       ],
       "response": [
         "Pemerasan adalah tindakan kriminal yang serius. Untuk melaporkannya, mohon berikan detail seperti nama pelaku, waktu, dan deskripsi ancaman. Informasi ini akan sangat membantu dalam proses investigasi."
       ]
-    },
+    },    
     {
-      "tag": "Perdagangan-Narkoba",
+      "tag": "perdagangan-narkoba",
       "patterns": [
-        "Saya tahu seseorang yang menjual narkoba",
-        "Ada yang menawarkan narkoba kepada saya",
-        "Bagaimana cara melaporkan perdagangan narkoba?",
-        "Saya melihat transaksi narkoba di lingkungan saya",
-        "Ada yang menjual obat-obatan terlarang di sekolah",
-        "Saya tahu tempat yang sering digunakan untuk transaksi narkoba",
-        "Bagaimana cara menghindari perdagangan narkoba?",
-        "Saya melihat seseorang membawa narkoba",
-        "Ada yang mencoba menjual narkoba kepada teman saya",
-        "Saya curiga ada aktivitas perdagangan narkoba di sekitar saya"
+        "seseorang menjual narkoba",
+        "narkoba ditawarkan kepada saya",
+        "laporan perdagangan narkoba",
+        "transaksi narkoba lingkungan",
+        "obat terlarang dijual di sekolah",
+        "tempat transaksi narkoba",
+        "hindari perdagangan narkoba",
+        "seseorang bawa narkoba",
+        "jual narkoba kepada teman",
+        "aktivitas perdagangan narkoba sekitar"
       ],
       "response": [
         "Terima kasih telah melaporkan hal ini. Perdagangan narkoba adalah kejahatan serius. Mohon berikan detail kejadian seperti nama pelaku, waktu, dan tempat transaksi untuk membantu kami dalam investigasi."
       ]
-    },
+    },    
     {
-      "tag": "Kekerasan",
+      "tag": "perdagangan-manusia",
       "patterns": [
-        "Saya menjadi korban kekerasan",
-        "Ada yang mengancam akan melakukan kekerasan fisik kepada saya",
-        "Bagaimana cara melaporkan kekerasan?",
-        "Saya melihat seseorang dipukuli",
-        "Saya menjadi saksi kekerasan dalam rumah tangga",
-        "Ada yang menyerang saya secara fisik",
-        "Bagaimana cara menghindari kekerasan?",
-        "Saya tahu seseorang yang sering melakukan kekerasan kepada orang lain",
-        "Saya melihat anak-anak diperlakukan kasar",
-        "Ada orang yang mengancam saya dengan senjata"
-      ],
-      "response": [
-        "Kekerasan adalah tindakan kriminal yang harus segera ditangani. Mohon laporkan dengan detail seperti nama pelaku, waktu, dan deskripsi kejadian untuk membantu proses investigasi."
-      ]
-    },
-    {
-      "tag": "Perdagangan-Manusia",
-      "patterns": [
-        "Saya curiga ada kasus perdagangan manusia di lingkungan saya",
-        "Ada yang menawarkan pekerjaan mencurigakan di luar negeri",
-        "Bagaimana cara melaporkan perdagangan manusia?",
-        "Saya tahu seseorang yang menjadi korban perdagangan manusia",
-        "Ada yang menawarkan anak-anak untuk dipekerjakan secara ilegal",
-        "Saya mendengar ada yang dijual untuk dijadikan pekerja paksa",
-        "Bagaimana cara menghindari perdagangan manusia?",
-        "Saya melihat seseorang dipaksa bekerja tanpa bayaran",
-        "Ada yang mencoba merekrut saya untuk pekerjaan mencurigakan",
-        "Saya tahu tempat yang digunakan untuk perdagangan manusia"
+        "perdagangan manusia lingkungan",
+        "pekerjaan mencurigakan luar negeri",
+        "laporan perdagangan manusia",
+        "seseorang korban perdagangan manusia",
+        "anak-anak dijual pekerjaan ilegal",
+        "dijual jadi pekerja paksa",
+        "hindari perdagangan manusia",
+        "seseorang dipaksa kerja tanpa bayaran",
+        "rekrut pekerjaan mencurigakan",
+        "tempat perdagangan manusia"
       ],
       "response": [
         "Perdagangan manusia adalah kejahatan serius. Mohon laporkan detail seperti nama pelaku, waktu, dan deskripsi kejadian untuk membantu proses investigasi."
       ]
-    },
+    },    
     {
-      "tag": "Kejahatan-Online",
+      "tag": "kejahatan-online",
       "patterns": [
-        "Saya menjadi korban penipuan online",
-        "Ada yang mencuri data pribadi saya dari internet",
-        "Bagaimana cara melaporkan kejahatan siber?",
-        "Saya menerima email phishing",
-        "Ada yang mencoba mengakses akun online saya",
-        "Saya menjadi korban serangan ransomware",
-        "Bagaimana cara menghindari kejahatan siber?",
-        "Saya tahu seseorang yang melakukan hacking",
-        "Ada yang mencoba mencuri informasi kartu kredit saya",
-        "Saya menjadi korban pencurian identitas online"
+        "penipuan online",
+        "data pribadi dicuri dari internet",
+        "laporan kejahatan siber",
+        "email phishing",
+        "seseorang akses akun online",
+        "serangan ransomware",
+        "hindari kejahatan siber",
+        "seseorang melakukan hacking",
+        "mencuri informasi kartu kredit",
+        "pencurian identitas online"
       ],
       "response": [
         "Kejahatan siber adalah ancaman serius. Mohon berikan detail kejadian seperti waktu, tempat, dan deskripsi serangan untuk membantu kami dalam investigasi."
       ]
-    },
+    },    
     {
-      "tag": "Kekerasan-Seksual",
+      "tag": "kekerasan-seksual",
       "patterns": [
-        "Saya menjadi korban pelecehan seksual",
-        "Ada yang mengancam saya dengan kekerasan seksual",
-        "Bagaimana cara melaporkan kekerasan seksual?",
-        "Saya melihat seseorang dilecehkan secara seksual",
-        "Saya menjadi saksi kekerasan seksual di tempat kerja",
-        "Ada yang menyerang saya secara seksual",
-        "Bagaimana cara menghindari kekerasan seksual?",
-        "Saya tahu seseorang yang sering melakukan pelecehan seksual",
-        "Saya melihat anak-anak diperlakukan tidak senonoh",
-        "Ada orang yang mengancam saya dengan tindakan seksual"
+        "saya korban pelecehan seksual",
+        "ancaman kekerasan seksual",
+        "laporan kekerasan seksual",
+        "melihat seseorang dilecehkan seksual",
+        "saksi kekerasan seksual tempat kerja",
+        "diserang seksual",
+        "hindari kekerasan seksual",
+        "seseorang sering pelecehan seksual",
+        "anak-anak diperlakukan tidak senonoh",
+        "ancaman tindakan seksual"
       ],
       "response": [
         "Kekerasan seksual adalah tindakan kriminal yang sangat serius. Mohon laporkan dengan detail seperti nama pelaku, waktu, dan deskripsi kejadian untuk membantu proses investigasi."
       ]
-    },
+    },    
     {
-      "tag": "Kejahatan-Terorisme",
+      "tag": "kejahatan-terorisme",
       "patterns": [
-        "Saya mendengar ada rencana serangan teror",
-        "Ada yang merekrut orang untuk kegiatan terorisme",
-        "Bagaimana cara melaporkan terorisme?",
-        "Saya melihat seseorang membawa bahan peledak",
-        "Saya menjadi saksi rencana serangan teroris",
-        "Ada yang mengancam akan melakukan serangan teror",
-        "Bagaimana cara menghindari terorisme?",
-        "Saya tahu seseorang yang terlibat dalam kelompok teroris",
-        "Ada yang mencoba merekrut saya untuk kegiatan teroris",
-        "Saya mendengar percakapan tentang serangan teror"
+        "rencana serangan teror",
+        "rekrut orang kegiatan terorisme",
+        "laporan terorisme",
+        "seseorang bawa bahan peledak",
+        "saksi rencana serangan teroris",
+        "ancaman serangan teror",
+        "hindari terorisme",
+        "seseorang terlibat kelompok teroris",
+        "rekrut saya kegiatan teroris",
+        "percakapan serangan teror"
       ],
       "response": [
         "Terorisme adalah ancaman serius bagi keamanan nasional. Mohon laporkan detail seperti nama pelaku, waktu, dan deskripsi kejadian untuk membantu kami dalam investigasi."
       ]
     },
     {
-      "tag": "Penyelundupan",
+      "tag": "penyelundupan",
       "patterns": [
-        "Saya tahu seseorang yang menyelundupkan barang ilegal",
-        "Ada yang menawarkan barang selundupan kepada saya",
-        "Bagaimana cara melaporkan penyelundupan?",
-        "Saya melihat seseorang membawa barang ilegal melintasi perbatasan",
-        "Saya menjadi saksi penyelundupan narkoba",
-        "Ada yang mengancam saya untuk membantu penyelundupan",
-        "Bagaimana cara menghindari penyelundupan?",
-        "Saya tahu tempat yang digunakan untuk penyelundupan barang",
-        "Ada yang mencoba menyelundupkan hewan langka",
-        "Saya mendengar percakapan tentang rencana penyelundupan"
+        "seseorang menyelundupkan barang ilegal",
+        "barang selundupan ditawarkan",
+        "laporan penyelundupan",
+        "seseorang bawa barang ilegal melintasi perbatasan",
+        "saksi penyelundupan narkoba",
+        "ancaman bantu penyelundupan",
+        "hindari penyelundupan",
+        "tempat penyelundupan barang",
+        "selundupkan hewan langka",
+        "percakapan rencana penyelundupan"
       ],
       "response": [
         "Penyelundupan adalah kejahatan serius yang merugikan banyak pihak. Mohon laporkan detail seperti nama pelaku, waktu, dan deskripsi kejadian untuk membantu proses investigasi."
       ]
-    },
+    },    
     {
       "tag": "Pengaduan",
       "patterns": [
@@ -1140,6 +981,54 @@
       "response": [
         "Untuk mengecek status pengaduan Anda, buka Aplikasi Tanggap dan pilih opsi 'Status Pengaduan'. Anda dapat melihat progres pengaduan Anda serta update terbaru yang diberikan oleh tim kami."
       ]
+    },
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hai",
+        "halo",
+        "hello",
+        "hi",
+        "hei",
+        "selamat datang",
+        "hai semua",
+        "halo semua",
+        "hello there",
+        "hi there",
+        "hei semuanya",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "good day",
+        "hi all",
+        "hello everyone",
+        "hei teman-teman",
+        "hai teman-teman",
+        "selamat pagi",
+        "selamat siang"
+      ],
+      "response": [
+        "Halo, selamat datang di fitur chatbot Tanggap. Ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "terima-kasih",
+      "patterns": [
+        "terima kasih",
+        "makasih",
+        "terima kasih banyak",
+        "thanks",
+        "thank you",
+        "trims",
+        "makasih banyak",
+        "terima kasih sekali",
+        "thanks a lot",
+        "thank you very much"
+      ],
+      "response": [
+        "Terima kasih kembali, senang membantu Anda. Anda bisa ajukan pertanyaan atau instruksi lain jika masih ingin berinteraksi dengan chatbot Tanggap."
+      ]
     }
+        
   ]
 }
