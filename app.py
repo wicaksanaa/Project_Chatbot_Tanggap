@@ -2,15 +2,8 @@ from flask import Flask, request, jsonify
 import random
 from sentence_transformers import SentenceTransformer, util
 import json
-from flask_cors import CORS
-from dotenv import load_dotenv
-import os
 
 app = Flask(__name__)
-load_dotenv()
-CORS(app)
-app.config['DEBUG'] = os.environ.get('FLASK_DEBUG')
-
 
 def load_intent_data(file_path):
     with open(file_path, 'r') as file:
@@ -57,4 +50,4 @@ def chat():
         return jsonify({"response": "Terjadi kesalahan: {}".format(e)}), 500
 
 if __name__ == '__main__':
-    app.run(port=int(os.environ.get("PORT", 8080)),host='0.0.0.0',debug=True)
+    app.run(debug=True)
