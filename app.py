@@ -5,6 +5,7 @@ import json
 
 app = Flask(__name__)
 
+
 def load_intent_data(file_path):
     with open(file_path, 'r') as file:
         data = json.load(file)
@@ -48,6 +49,7 @@ def chat():
             return jsonify({"response": "Mohon maaf chatbot tidak mengerti instruksi dari anda. Mohon berikan instruksi ulang atau berikan instruksi lain."}), 200
     except Exception as e:
         return jsonify({"response": "Terjadi kesalahan: {}".format(e)}), 500
-
-if __name__ == '__main__':
-    app.run(debug=True)
+    
+PORT = 5000
+if __name__ == "__main__":    # Start the server or listener operation  
+    app.run(debug=True, host="0.0.0.0", port=PORT)
